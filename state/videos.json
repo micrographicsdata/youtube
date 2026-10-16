@@ -1,213 +1,213 @@
 {
- "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded.",
- "posts": [
-  {
-   "status": "covered",
-   "blog": "micrographics-data-blogposts",
-   "article": "mas-immutable-backup-mandate-singapore-2026",
-   "published": "2026-09-21",
-   "tier": 0,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "singapore-cyber-resilience-mandate-2026",
-   "published": "2026-09-07",
-   "tier": 1,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "gst-invoicenow-paper-invoice-archiving",
-   "published": "2026-09-29",
-   "tier": 1,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "edge-grant-document-scanning-singapore-2026",
-   "published": "2026-09-14",
-   "tier": 1,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "health-information-act-2026-singapore",
-   "published": "2026-09-14",
-   "tier": 1,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "pdpa-archiving-data-retention-singapore",
-   "published": "2026-10-12",
-   "tier": 1,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "choose-document-scanning-vendor-singapore",
-   "published": "2026-10-09",
-   "tier": 1,
-   "video_url": null
-  },
-  {
-   "status": "test-uploaded-private",
-   "blog": "microfilm",
-   "article": "ransomware-proof-archival-storage",
-   "published": "2026-10-12",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "archival-microfilm-le500-rating",
-   "published": "2026-10-12",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "vinegar-syndrome-acetate-microfilm-risk",
-   "published": "2026-10-10",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "vinegar-syndrome-microfilm-archive-rescue",
-   "published": "2026-09-29",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "consumer-vs-archival-microfilm-scanners",
-   "published": "2026-10-12",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "microfilm-national-archives-preservation",
-   "published": "2026-09-18",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "computer-output-microfilm-com-singapore-2026",
-   "published": "2026-09-14",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "microfilm-chemistry-supply-crisis-2026",
-   "published": "2026-09-07",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "global-microfilm-scanner-market-2035",
-   "published": "2026-09-14",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "microfilm",
-   "article": "silver-price-surge-microfilm-cost-2026",
-   "published": "2026-09-21",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "micrographics-data-blogposts",
-   "article": "st-viewscan-5-vs-scanpro-3500",
-   "published": "2026-09-14",
-   "tier": 2,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "heritage-cultural-archiving",
-   "article": "heritage-archive-digitisation-singapore",
-   "published": "2026-10-13",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "heritage-cultural-archiving",
-   "article": "preserving-your-history-with-national-heritage-board-cultural-heritage-grants",
-   "published": "2026-09-18",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "heritage-cultural-archiving",
-   "article": "nhb-heritage-grants-digitisation-guide",
-   "published": "2026-09-07",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "book-document-scanners",
-   "article": "book-scanner-vs-document-scanner-guide",
-   "published": "2026-10-09",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "airbench-dust-fume-extraction",
-   "article": "airbench-downdraught-extraction-bench-guide",
-   "published": "2026-10-09",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "kodak-motion-film-ecn2-processor",
-   "article": "film-market-growth-data-2026",
-   "published": "2026-09-29",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "kodak-motion-film-ecn2-processor",
-   "article": "kodak-verita-200d-ecn2-processor-2026",
-   "published": "2026-09-14",
-   "tier": 3,
-   "video_url": null
-  },
-  {
-   "status": "pending",
-   "blog": "latest-micrographics-data-awarded-projects",
-   "article": "research-agency-lab-notebook-digitisation",
-   "published": "2026-09-25",
-   "tier": 3,
-   "video_url": null
-  }
- ]
+  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded.",
+  "posts": [
+    {
+      "status": "covered",
+      "blog": "micrographics-data-blogposts",
+      "article": "mas-immutable-backup-mandate-singapore-2026",
+      "published": "2026-09-21",
+      "tier": 0,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "singapore-cyber-resilience-mandate-2026",
+      "published": "2026-09-07",
+      "tier": 1,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "gst-invoicenow-paper-invoice-archiving",
+      "published": "2026-09-29",
+      "tier": 1,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "edge-grant-document-scanning-singapore-2026",
+      "published": "2026-09-14",
+      "tier": 1,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "health-information-act-2026-singapore",
+      "published": "2026-09-14",
+      "tier": 1,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "pdpa-archiving-data-retention-singapore",
+      "published": "2026-10-12",
+      "tier": 1,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "choose-document-scanning-vendor-singapore",
+      "published": "2026-10-09",
+      "tier": 1,
+      "video_url": null
+    },
+    {
+      "status": "test-uploaded-private",
+      "blog": "microfilm",
+      "article": "ransomware-proof-archival-storage",
+      "published": "2026-10-12",
+      "tier": 2,
+      "video_url": "https://www.youtube.com/watch?v=jqJqTZ2CZOI"
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "archival-microfilm-le500-rating",
+      "published": "2026-10-12",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "vinegar-syndrome-acetate-microfilm-risk",
+      "published": "2026-10-10",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "vinegar-syndrome-microfilm-archive-rescue",
+      "published": "2026-09-29",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "consumer-vs-archival-microfilm-scanners",
+      "published": "2026-10-12",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "microfilm-national-archives-preservation",
+      "published": "2026-09-18",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "computer-output-microfilm-com-singapore-2026",
+      "published": "2026-09-14",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "microfilm-chemistry-supply-crisis-2026",
+      "published": "2026-09-07",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "global-microfilm-scanner-market-2035",
+      "published": "2026-09-14",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "silver-price-surge-microfilm-cost-2026",
+      "published": "2026-09-21",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "st-viewscan-5-vs-scanpro-3500",
+      "published": "2026-09-14",
+      "tier": 2,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "heritage-cultural-archiving",
+      "article": "heritage-archive-digitisation-singapore",
+      "published": "2026-10-13",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "heritage-cultural-archiving",
+      "article": "preserving-your-history-with-national-heritage-board-cultural-heritage-grants",
+      "published": "2026-09-18",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "heritage-cultural-archiving",
+      "article": "nhb-heritage-grants-digitisation-guide",
+      "published": "2026-09-07",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "book-document-scanners",
+      "article": "book-scanner-vs-document-scanner-guide",
+      "published": "2026-10-09",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "airbench-dust-fume-extraction",
+      "article": "airbench-downdraught-extraction-bench-guide",
+      "published": "2026-10-09",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "kodak-motion-film-ecn2-processor",
+      "article": "film-market-growth-data-2026",
+      "published": "2026-09-29",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "kodak-motion-film-ecn2-processor",
+      "article": "kodak-verita-200d-ecn2-processor-2026",
+      "published": "2026-09-14",
+      "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "latest-micrographics-data-awarded-projects",
+      "article": "research-agency-lab-notebook-digitisation",
+      "published": "2026-09-25",
+      "tier": 3,
+      "video_url": null
+    }
+  ]
 }
