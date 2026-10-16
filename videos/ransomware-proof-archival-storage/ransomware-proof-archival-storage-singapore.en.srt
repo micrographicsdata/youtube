@@ -1,0 +1,55 @@
+1
+00:00:00,500 --> 00:00:07,500
+Ransomware-Proof Archival Storage: Where Offline Microfilm Fits. A guide for Singapore records and IT teams.
+
+2
+00:00:08,500 --> 00:00:15,000
+No storage that stays connected to a network is fully ransomware-proof.
+
+3
+00:00:15,000 --> 00:00:21,500
+CISA recommends offline, encrypted backups of critical data, tested regularly, because ransomware seeks out and encrypts reachable backups.
+
+4
+00:00:22,500 --> 00:00:30,000
+What CISA recommends: keep offline, encrypted backups of critical data, and test backup availability and integrity regularly in a recovery exercise.
+
+5
+00:00:30,000 --> 00:00:37,500
+Keep golden images of critical systems so they can be rebuilt quickly. Use immutable cloud storage with caution: it may not meet every compliance requirement, and misconfiguration is costly.
+
+6
+00:00:38,500 --> 00:00:47,500
+Network or cloud backup is not offline, and malware can alter it if credentials are compromised. Immutable cloud is protected only if configured correctly.
+
+7
+00:00:47,500 --> 00:00:57,500
+Offline tape or disk is only exposed while connected and needs format migration every few years. Archival microfilm is always offline, cannot be altered by malware, is readable without software, and needs no format migration.
+
+8
+00:00:58,500 --> 00:01:07,000
+Microfilm protects records such as registers, contracts, drawings and financial records, as human-readable images. It does not restore systems: databases, applications and live files still need offline digital backups.
+
+9
+00:01:07,000 --> 00:01:15,500
+It must be made to ISO 18901, processed to ISO 18917 and stored to ISO 18911, with physical security and ideally a duplicate at a second site.
+
+10
+00:01:16,500 --> 00:01:25,000
+A layered plan for long-term records. One: a working copy on your systems for daily access. Two: an offline, encrypted digital backup, tested regularly, for system recovery.
+
+11
+00:01:25,000 --> 00:01:29,500
+Three: a microfilm preservation master for records that must survive any digital failure.
+
+12
+00:01:30,500 --> 00:01:39,000
+Is any storage truly ransomware-proof? Only storage that is offline and cannot be rewritten is beyond the reach of ransomware.
+
+13
+00:01:39,000 --> 00:01:49,500
+Does microfilm replace digital backups? No. Microfilm preserves records; offline digital backups restore systems and live data. A COM system writes digital images onto 16 mm or 35 mm film.
+
+14
+00:01:50,500 --> 00:01:59,500
+Plan your preservation copy. Micrographics Data, Singapore: +65 6472 7255, sales@micrographicsdata.com, www.micrographicsdata.com. Source: CISA #StopRansomware Guide.
