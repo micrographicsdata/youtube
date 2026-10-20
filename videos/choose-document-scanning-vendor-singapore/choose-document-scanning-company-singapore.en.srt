@@ -1,0 +1,92 @@
+1
+00:00:00,500 --> 00:00:07,500
+How to Choose a Document Scanning Company in Singapore. A 2026 buyer's checklist for Singapore organisations
+
+2
+00:00:08,500 --> 00:00:20,664
+Check seven things before you sign: PDPA chain of custody, retention-schedule knowledge, GeBIZ registration, data residency, scalability, handling of originals, and a backup and resilience strategy.
+
+3
+00:00:20,664 --> 00:00:26,500
+A wrong choice shows up months later as a PDPA exposure or an archive with no resilience layer.
+
+4
+00:00:27,500 --> 00:00:31,366
+1. PDPA chain of custody: a written process from collection to return or destruction. 2.
+
+5
+00:00:31,366 --> 00:00:38,704
+Retention-schedule knowledge: ACRA: most company records at least 7 years; IRAS has its own rules. 3. GeBIZ registration: for public-sector or statutory board work. 4.
+
+6
+00:00:38,704 --> 00:00:45,294
+Data residency: where files are processed and stored. 5. Scalability and turnaround: can it absorb a volume spike without unvetted subcontractors?. 6.
+
+7
+00:00:45,294 --> 00:00:52,500
+Post-scan handling of originals: secure return, or certified, documented destruction. 7. Backup and resilience: digital-only, or a hybrid with a non-digital layer?.
+
+8
+00:00:53,500 --> 00:01:02,476
+What happens to our originals from collection to project close? Who handles our documents, and have they signed confidentiality undertakings?
+
+9
+00:01:02,476 --> 00:01:11,771
+Where is scanning and file processing done? What if our volume is 30% higher than estimated? Can you show a reference project of comparable scale?
+
+10
+00:01:11,771 --> 00:01:17,500
+Do you offer more than a digital file, such as OCR, indexing or a hybrid microfilm backup?
+
+11
+00:01:18,500 --> 00:01:23,553
+: Searchability. Digital-only archive: Yes, with OCR. Hybrid digital + microfilm: Yes, digital layer unchanged. : Ransomware exposure.
+
+12
+00:01:23,553 --> 00:01:28,606
+Digital-only archive: Depends on backup discipline. Hybrid digital + microfilm: Microfilm copy is air-gapped. : Long-term readability.
+
+13
+00:01:28,606 --> 00:01:33,583
+Digital-only archive: Needs ongoing format migration. Hybrid digital + microfilm: LE500: 500 years, no software. : Power dependency.
+
+14
+00:01:33,583 --> 00:01:38,787
+Digital-only archive: Full dependency on servers or drives. Hybrid digital + microfilm: Film needs no power to stay intact. : Typical fit.
+
+15
+00:01:38,787 --> 00:01:43,500
+Digital-only archive: Low-sensitivity, frequently updated. Hybrid digital + microfilm: Statutory, financial, legal, heritage.
+
+16
+00:01:44,500 --> 00:01:52,588
+The EDGE Grant merges the former PSG, EDG and MRA schemes into one funding pathway for SME projects from the second half of 2026.
+
+17
+00:01:52,588 --> 00:01:57,603
+The GST InvoiceNow mandate affects how long paper invoice archives are retained.
+
+18
+00:01:57,603 --> 00:02:04,500
+Regulated sectors face tighter expectations on immutable or offline backups under MAS technology risk notices.
+
+19
+00:02:05,500 --> 00:02:15,213
+What does scanning cost? It depends on volume, condition, format and OCR needs. Most vendors quote after an assessment. Is my data safe under the PDPA?
+
+20
+00:02:15,213 --> 00:02:22,354
+Verify chain of custody, data residency and staff confidentiality before signing. How long does a project take?
+
+21
+00:02:22,354 --> 00:02:27,500
+From a few weeks for one department to several months for an enterprise archive.
+
+22
+00:02:28,500 --> 00:02:32,789
+Request a scanning assessment. Micrographics Data, a GeBIZ-registered Singapore vendor since 1989, assesses on-site or from samples.
+
+23
+00:02:32,789 --> 00:02:37,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: How to Choose a Document Scanning Company in Singapore
+

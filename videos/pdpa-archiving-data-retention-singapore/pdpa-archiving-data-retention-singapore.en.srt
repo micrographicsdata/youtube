@@ -1,0 +1,84 @@
+1
+00:00:00,500 --> 00:00:07,500
+PDPA and Archiving in Singapore: How Long Can You Keep Personal Data?. A guide for Singapore records and compliance teams
+
+2
+00:00:08,500 --> 00:00:11,642
+The PDPA does not set a fixed retention period.
+
+3
+00:00:11,642 --> 00:00:23,076
+Under section 25, an organisation may keep personal data only while the purpose it was collected for is still served, or while it is needed for legal or business purposes.
+
+4
+00:00:23,076 --> 00:00:31,500
+After that, the data must be destroyed or anonymised. Moving records into an archive does not count as ceasing to retain them.
+
+5
+00:00:32,500 --> 00:00:39,480
+No fixed period: retention is judged by reasonableness. No "just in case" retention without a legal or business reason.
+
+6
+00:00:39,480 --> 00:00:43,704
+Tax, company, employment and sector rules can still require set periods.
+
+7
+00:00:43,704 --> 00:00:53,500
+The PDPC recommends a retention policy with different periods for different data and a stated reason for longer retention. Source: PDPC Advisory Guidelines, Chapter 18
+
+8
+00:00:54,500 --> 00:01:02,486
+A locked cabinet, a warehouse or restricted access does not count as ceasing to retain. Archived personal data stays under the PDPA.
+
+9
+00:01:02,486 --> 00:01:11,500
+The Protection Obligation (section 24) also applies: the archive needs reasonable security arrangements. Source: PDPC Advisory Guidelines, Chapter 18
+
+10
+00:01:12,500 --> 00:01:19,181
+1. Destroy: so records cannot be retrieved, for example shredding paper or securely deleting files. 2.
+
+11
+00:01:19,181 --> 00:01:27,500
+Return or transfer: to the individual, or as the individual instructs. 3. Anonymise: so the data can no longer identify anyone.
+
+12
+00:01:28,500 --> 00:01:37,237
+1. Classify records: by type and the personal data they hold. 2. Set a retention period: for each class, with the reason recorded. 3.
+
+13
+00:01:37,237 --> 00:01:46,500
+Restrict access: and log who retrieves what. 4. Schedule disposal: and record what was destroyed and when. 5. Review: the schedule regularly.
+
+14
+00:01:47,500 --> 00:01:54,443
+Scanning does not change the rules: a scanned image is still personal data and inherits the retention period.
+
+15
+00:01:54,443 --> 00:02:03,869
+Microfilm suits records with a long legal basis, such as permanent registers and statutory records. Individual frames cannot be deleted from a roll.
+
+16
+00:02:03,869 --> 00:02:07,500
+Put records with the same disposal date on the same roll.
+
+17
+00:02:08,500 --> 00:02:17,933
+How long can I keep personal data? As long as the purpose is served or a legal or business reason exists. Is a scanned copy covered? Yes.
+
+18
+00:02:17,933 --> 00:02:29,500
+A scanned image containing personal data is personal data. What counts as destroying data? Making it irretrievable, or anonymising it so it no longer identifies anyone.
+
+19
+00:02:30,500 --> 00:02:33,698
+Keep records securely. Talk to Micrographics Data about document scanning and microfilming services in Singapore.
+
+20
+00:02:33,698 --> 00:02:38,425
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: PDPA and Archiving in Singapore Source: Personal Data Protection Commission.
+
+21
+00:02:38,425 --> 00:02:39,500
+General information, not legal advice.
+

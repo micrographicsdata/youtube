@@ -1,0 +1,84 @@
+1
+00:00:00,500 --> 00:00:07,500
+When the Foreign Vendor Controls the Switch. Building dependency-proof archives: a guide for Singapore records teams
+
+2
+00:00:08,500 --> 00:00:21,833
+A dependency risk is the vulnerability that exists when critical infrastructure is owned and operated by someone else, and that owner can restrict, alter or withdraw access on its own decision, not an attacker's.
+
+3
+00:00:21,833 --> 00:00:28,500
+A record is dependency-proof only if losing the vendor changes nothing about whether it can still be read.
+
+4
+00:00:29,500 --> 00:00:37,491
+On 14 October 2026, an adviser to President Zelenskyy reported an overnight, speed-based restriction on Starlink terminals used by Ukrainian forces.
+
+5
+00:00:37,491 --> 00:00:41,379
+He said forces received no warning, and several missions were disrupted.
+
+6
+00:00:41,379 --> 00:00:47,157
+SpaceX has given no public reason, and no independent evidence ties the change to any government directive.
+
+7
+00:00:47,157 --> 00:00:54,500
+The structural point stands: the capability to change access unilaterally is itself the vulnerability. Source: Euronews, 14 October 2026
+
+8
+00:00:55,500 --> 00:01:04,057
+The Open Rights Group's 2026 report, Tech Giants and Giant Slayers, says reliance on a few foreign technology firms is an urgent national security issue.
+
+9
+00:01:04,057 --> 00:01:11,440
+It cites legal compulsion: the US CLOUD Act and China's National Intelligence Law can require companies to hand over data or access.
+
+10
+00:01:11,440 --> 00:01:20,500
+It also cites sanctions enforcement reaching into services, and concentrated public-sector contracts. Source: Open Rights Group, 2026, as reported by The Register
+
+11
+00:01:21,500 --> 00:01:29,370
+Type of control: Access control. What the vendor can do: Throttle, restrict or cut off the service. Who is exposed: Live systems and cloud-only archives.
+
+12
+00:01:29,370 --> 00:01:37,807
+Type of control: Legal control. What the vendor can do: Be compelled by its home government to hand over data. Who is exposed: Data at rest, not just live services.
+
+13
+00:01:37,807 --> 00:01:46,500
+Type of control: Decision control. What the vendor can do: Let AI agents decide what is retained or surfaced. Who is exposed: Your effective command of your own archive.
+
+14
+00:01:47,500 --> 00:01:55,457
+Film made to ISO 18901, processed to ISO 18917 and stored to ISO 18911 carries an LE-500 rating: a 500-year life expectancy.
+
+15
+00:01:55,457 --> 00:02:05,853
+It needs nothing beyond light and a lens to read. No subscription to lapse, no account to suspend, no foreign-hosted platform, no software to fall out of support.
+
+16
+00:02:05,853 --> 00:02:11,500
+Digital stays the tool for daily access. Microfilm is the preservation layer underneath.
+
+17
+00:02:12,500 --> 00:02:22,221
+Is this only a risk for countries at war? No. The same structural risk exists in peacetime. Cyberattack versus dependency risk? A cyberattack is a break-in.
+
+18
+00:02:22,221 --> 00:02:27,642
+A dependency risk needs no attack: the vendor decides. Does microfilm solve everything?
+
+19
+00:02:27,642 --> 00:02:33,500
+It removes vendor control for the records on it, but does not replace working digital systems.
+
+20
+00:02:34,500 --> 00:02:37,940
+Build the layer no vendor can switch off. Talk to Micrographics Data about archival microfilm, COM systems and film supplies in Singapore.
+
+21
+00:02:37,940 --> 00:02:43,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: When the Foreign Vendor Controls the Switch Sources: Euronews (14 Oct 2026); Open Rights Group, Tech Giants and Giant Slayers (2026)
+
