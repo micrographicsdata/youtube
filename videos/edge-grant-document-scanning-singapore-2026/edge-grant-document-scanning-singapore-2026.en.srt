@@ -1,0 +1,64 @@
+1
+00:00:00,500 --> 00:00:07,500
+EDGE Grant Replaces PSG: Document Scanning Projects. What changed, and how to prepare, in Singapore
+
+2
+00:00:08,500 --> 00:00:15,288
+Enterprise Singapore has consolidated its main business grants. PSG, EDG and MRA ceased on 29 September 2026.
+
+3
+00:00:15,288 --> 00:00:25,500
+From 30 September 2026, businesses apply under the new EDGE Grant. Eligibility and support levels are set by Enterprise Singapore, so check the official page first.
+
+4
+00:00:26,500 --> 00:00:34,615
+Scheme: Productivity Solutions Grant (PSG). Status: Ceased 29 September 2026. Scheme: Enterprise Development Grant (EDG). Status: Ceased 29 September 2026.
+
+5
+00:00:34,615 --> 00:00:41,997
+Scheme: Market Readiness Assistance (MRA). Status: Ceased 29 September 2026. Scheme: EDGE Grant. Status: Applications from 30 September 2026.
+
+6
+00:00:41,997 --> 00:00:46,500
+Scheme: Existing applications. Status: Continue to be processed; claims on completion.
+
+7
+00:00:47,500 --> 00:00:57,742
+The PSG worked from a list of pre-approved solutions and vendors. With PSG closed to new applications, that list no longer applies to new projects.
+
+8
+00:00:57,742 --> 00:01:04,500
+If you planned a scanning project around a PSG package, re-check it against the EDGE Grant terms.
+
+9
+00:01:05,500 --> 00:01:10,559
+1. Read the current terms: confirm eligibility on the Enterprise Singapore website. 2.
+
+10
+00:01:10,559 --> 00:01:15,676
+Scope the project: volumes, document types, condition, indexing, outputs, retention. 3.
+
+11
+00:01:15,676 --> 00:01:25,500
+Get an itemised quotation: scanning, preparation, indexing, software, hardware, training. 4. Do not sign or pay yet: check when costs can be committed under the rules.
+
+12
+00:01:26,500 --> 00:01:33,858
+Who decides if a project qualifies? Enterprise Singapore decides, not any vendor. Are existing PSG applications cancelled? No.
+
+13
+00:01:33,858 --> 00:01:42,500
+Ongoing submissions and projects continue to be processed. Can public-sector buyers use Micrographics Data? Yes. We are a registered GeBIZ supplier.
+
+14
+00:01:43,500 --> 00:01:46,574
+Request a project assessment. Micrographics Data can scope your digitisation project and issue an itemised written quotation.
+
+15
+00:01:46,574 --> 00:01:51,566
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: EDGE Grant Replaces PSG, EDG and MRA Source: Enterprise Singapore, EDGE Grant page (accessed 25 September 2026).
+
+16
+00:01:51,566 --> 00:01:52,500
+General information, not grant advice.
+

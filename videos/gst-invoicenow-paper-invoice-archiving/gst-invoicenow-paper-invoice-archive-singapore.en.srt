@@ -1,0 +1,88 @@
+1
+00:00:00,500 --> 00:00:07,500
+GST InvoiceNow 2026: Your Paper Invoice Archive. A guide for Singapore finance and compliance teams
+
+2
+00:00:08,500 --> 00:00:13,183
+InvoiceNow only governs invoices issued after a business goes live on it.
+
+3
+00:00:13,183 --> 00:00:20,560
+Invoices, purchase orders and delivery orders from before that date still fall under IRAS and ACRA retention rules.
+
+4
+00:00:20,560 --> 00:00:25,500
+Adopting InvoiceNow does not erase the duty to keep your paper invoice trail.
+
+5
+00:00:26,500 --> 00:00:31,805
+From: 1 April 2026. Who is in scope: New voluntary GST registrants. From: 1 April 2028.
+
+6
+00:00:31,805 --> 00:00:39,183
+Who is in scope: Newly compulsory registrants; existing registrants up to S$200,000 taxable supplies. From: 1 April 2029.
+
+7
+00:00:39,183 --> 00:00:48,024
+Who is in scope: Taxable supplies up to S$1 million. From: 1 April 2030. Who is in scope: Taxable supplies up to S$4 million. From: 1 April 2031.
+
+8
+00:00:48,024 --> 00:00:51,500
+Who is in scope: All remaining GST-registered businesses.
+
+9
+00:00:52,500 --> 00:00:57,914
+IRAS: keep business and accounting records, including invoices, for at least 5 years.
+
+10
+00:00:57,914 --> 00:01:08,169
+ACRA: keep accounting records and supporting documents for at least 5 years from the relevant financial year. Many businesses use 7 years as a compliance buffer.
+
+11
+00:01:08,169 --> 00:01:12,500
+The PDPA also limits how long personal data in invoices may be kept.
+
+12
+00:01:13,500 --> 00:01:21,589
+High-resolution scanning with OCR indexing by invoice number, vendor and financial year. Retention metadata tied to the right statutory clock.
+
+13
+00:01:21,589 --> 00:01:26,487
+Retrieve any historical invoice quickly for an IRAS audit, ACRA inspection or dispute.
+
+14
+00:01:26,487 --> 00:01:31,500
+For the most sensitive records, an archival microfilm layer adds an air-gapped backstop.
+
+15
+00:01:32,500 --> 00:01:42,725
+1. Audit the backlog: by financial year; flag records near the end of retention. 2. Scan and index first: the years still within an active retention period. 3.
+
+16
+00:01:42,725 --> 00:01:52,500
+Apply retention metadata: so records can be disposed of when the window closes. 4. Consider microfilm: for permanent records of the most sensitive kind.
+
+17
+00:01:53,500 --> 00:02:03,814
+Do I still need paper invoices after InvoiceNow? Yes, for invoices issued before your go-live date, for the full retention period. Can old invoices be digitised? Yes.
+
+18
+00:02:03,814 --> 00:02:10,462
+Scans must stay legible and retrievable on request. Does Micrographics Data set up InvoiceNow software? No.
+
+19
+00:02:10,462 --> 00:02:14,500
+We solve the paper backlog: scanning, OCR indexing and archiving.
+
+20
+00:02:15,500 --> 00:02:18,361
+Get your invoice archive ready. Talk to Micrographics Data about document scanning and archiving in Singapore.
+
+21
+00:02:18,361 --> 00:02:22,393
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: GST InvoiceNow 2026: What Happens to Your Paper Invoice Archive?
+
+22
+00:02:22,393 --> 00:02:24,500
+Source: IRAS, Committee of Supply 2026 announcement, as summarised in the article
+

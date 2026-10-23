@@ -1,0 +1,56 @@
+1
+00:00:00,500 --> 00:00:07,500
+Health Information Act 2026: Legacy Patient Records. A guide for Singapore clinics, pharmacies and hospital groups
+
+2
+00:00:08,500 --> 00:00:12,842
+The Health Information Act 2026 covers records going forward.
+
+3
+00:00:12,842 --> 00:00:22,094
+It does not require historical records to be uploaded to the NEHR, so legacy paper files stay outside the Act but inside the PDPA.
+
+4
+00:00:22,094 --> 00:00:28,500
+A clinic can be HIA-compliant on new records and still carry a PDPA risk in its storeroom.
+
+5
+00:00:29,500 --> 00:00:38,511
+When: January 2026. What begins: Act passed in Parliament. When: September 2027. What begins: NEHR contribution and data-security duties for covered entities.
+
+6
+00:00:38,511 --> 00:00:44,500
+When: September 2028. What begins: Reasonable security measures for providers not required to contribute.
+
+7
+00:00:45,500 --> 00:00:54,311
+The HIA requires prospective records to be contributed to the NEHR. Historical records and past consultation notes are not required to be uploaded.
+
+8
+00:00:54,311 --> 00:01:04,500
+Legacy files remain subject to PDPA retention and protection duties and MOH licensing conditions. Retention commonly runs several years beyond a patient's last treatment.
+
+9
+00:01:05,500 --> 00:01:15,561
+1. Prospective records: contributed to the NEHR under HIA security duties. 2. Legacy paper records: scanned, indexed, then retained or disposed of under the PDPA. 3.
+
+10
+00:01:15,561 --> 00:01:20,500
+Longest-kept records: optional archival microfilm backup alongside digital scans.
+
+11
+00:01:21,500 --> 00:01:29,753
+Must clinics digitise old patient records under the HIA? No. The HIA covers prospective records only. When do the duties start?
+
+12
+00:01:29,753 --> 00:01:39,500
+September 2027 for covered entities; September 2028 for others. Does the PDPA still apply to old files? Yes. Retention and protection duties continue.
+
+13
+00:01:40,500 --> 00:01:44,344
+Get legacy records compliant. Talk to Micrographics Data about secure scanning and archiving of clinical records in Singapore.
+
+14
+00:01:44,344 --> 00:01:49,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Singapore's Health Information Act 2026 General information, not legal advice.
+
