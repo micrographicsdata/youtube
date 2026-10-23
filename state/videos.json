@@ -1,5 +1,5 @@
 {
-  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded.",
+  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED.",
   "posts": [
     {
       "status": "test-uploaded-private",
@@ -26,28 +26,31 @@
       "video_url": null
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "micrographics-data-blogposts",
       "article": "gst-invoicenow-paper-invoice-archiving",
       "published": "2026-09-29",
       "tier": 1,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-10-23T09:15 Asia/Singapore"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "micrographics-data-blogposts",
       "article": "edge-grant-document-scanning-singapore-2026",
       "published": "2026-09-14",
       "tier": 1,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-10-23T09:30 Asia/Singapore"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "micrographics-data-blogposts",
       "article": "health-information-act-2026-singapore",
       "published": "2026-09-14",
       "tier": 1,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-10-23T09:45 Asia/Singapore"
     },
     {
       "status": "test-uploaded-private",
