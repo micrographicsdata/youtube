@@ -2,6 +2,33 @@
   "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED.",
   "posts": [
     {
+      "status": "scheduled-public",
+      "blog": "micrographics-data-blogposts",
+      "article": "how-long-to-keep-employee-records-singapore",
+      "published": "2026-10-26",
+      "tier": 0,
+      "video_url": null,
+      "scheduled_for": "2026-10-27T09:15 Asia/Singapore"
+    },
+    {
+      "status": "scheduled-public",
+      "blog": "microfilm",
+      "article": "cyber-insurance-offline-backups-microfilm",
+      "published": "2026-10-26",
+      "tier": 0,
+      "video_url": null,
+      "scheduled_for": "2026-10-27T09:30 Asia/Singapore"
+    },
+    {
+      "status": "scheduled-public",
+      "blog": "micrographics-data-blogposts",
+      "article": "pdpa-cross-border-data-transfer-scanning",
+      "published": "2026-10-26",
+      "tier": 0,
+      "video_url": null,
+      "scheduled_for": "2026-10-27T09:45 Asia/Singapore"
+    },
+    {
       "status": "test-uploaded-private",
       "blog": "microfilm",
       "article": "digital-sovereignty-foreign-tech-dependency-risk",
@@ -26,31 +53,28 @@
       "video_url": null
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "micrographics-data-blogposts",
       "article": "gst-invoicenow-paper-invoice-archiving",
       "published": "2026-09-29",
       "tier": 1,
-      "video_url": null,
-      "scheduled_for": "2026-10-23T09:15 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=bFMxtFLp7qE"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "micrographics-data-blogposts",
       "article": "edge-grant-document-scanning-singapore-2026",
       "published": "2026-09-14",
       "tier": 1,
-      "video_url": null,
-      "scheduled_for": "2026-10-23T09:30 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=gIge6tP0sVY"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "micrographics-data-blogposts",
       "article": "health-information-act-2026-singapore",
       "published": "2026-09-14",
       "tier": 1,
-      "video_url": null,
-      "scheduled_for": "2026-10-23T09:45 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=n_daj0EDN_U"
     },
     {
       "status": "test-uploaded-private",
