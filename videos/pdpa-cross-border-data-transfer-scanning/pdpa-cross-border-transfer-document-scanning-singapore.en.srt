@@ -1,0 +1,72 @@
+1
+00:00:00,500 --> 00:00:07,500
+PDPA Cross-Border Rules and Outsourced Document Scanning. What changed in 2026 for Singapore organisations
+
+2
+00:00:08,500 --> 00:00:19,699
+Singapore's Transfer Limitation Obligation requires that before personal data leaves Singapore, the sending organisation ensures the overseas recipient protects it to a standard comparable to the PDPA.
+
+3
+00:00:19,699 --> 00:00:27,500
+The sender stays accountable afterwards. Scanning, OCR and storage that all stay in Singapore avoid the cross-border question for that step.
+
+4
+00:00:28,500 --> 00:00:33,094
+The Personal Data Protection (Amendment) Regulations 2026 took effect on 2 March 2026.
+
+5
+00:00:33,094 --> 00:00:39,718
+They amended regulation 12(2) of the PDP Regulations 2021, expanding the certification mechanisms organisations can rely on.
+
+6
+00:00:39,718 --> 00:00:47,250
+The PDPC's updated Guide to Cross-Border Data Transfers (14 April 2026) recognises Global CBPR for controllers and Global PRP for processors.
+
+7
+00:00:47,250 --> 00:00:53,500
+These sit alongside existing contracts and Binding Corporate Rules. Source: PDPC / IMDA, as summarised in the article
+
+8
+00:00:54,500 --> 00:01:00,195
+An offshore scanning bureau handling records or images is a transfer of personal data overseas.
+
+9
+00:01:00,195 --> 00:01:05,410
+A cloud document platform with servers outside Singapore is the same category of event.
+
+10
+00:01:05,410 --> 00:01:12,783
+Overseas-hosted OCR, AI indexing or classification is a transfer in its own right, even if final files return to Singapore.
+
+11
+00:01:12,783 --> 00:01:16,500
+The sending organisation, not the vendor, remains accountable.
+
+12
+00:01:17,500 --> 00:01:25,222
+1. Location of processing: documents, equipment and output in Singapore?. 2. OCR and AI routing: any overseas engine, even transiently?. 3.
+
+13
+00:01:25,222 --> 00:01:34,500
+Certification: CBPR, PRP or contract clauses?. 4. Subcontractor chain: undisclosed overseas storage or backup?. 5. Audit evidence: documentation, not verbal assurance.
+
+14
+00:01:35,500 --> 00:01:44,503
+Does scanning with a Singapore vendor avoid this? For the scanning step, yes, if records, equipment and digital files never leave Singapore.
+
+15
+00:01:44,503 --> 00:01:50,162
+It still applies to later steps such as an overseas cloud backup. What are CBPR and PRP?
+
+16
+00:01:50,162 --> 00:01:55,500
+CBPR is a certification for data controllers; PRP is the equivalent for processors.
+
+17
+00:01:56,500 --> 00:01:59,447
+Keep your scanning in Singapore. Micrographics Data has scanned and archived records from a single Singapore facility since 1989.
+
+18
+00:01:59,447 --> 00:02:05,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Singapore's 2026 PDPA Cross-Border Data Rules and Outsourced Document Scanning Sources: PDPC/IMDA, PDP (Amendment) Regulations 2026; PDPC Guide to Cross-Border Data Transfers
+

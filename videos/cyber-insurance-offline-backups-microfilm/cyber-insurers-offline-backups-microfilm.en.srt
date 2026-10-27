@@ -1,0 +1,100 @@
+1
+00:00:00,500 --> 00:00:07,500
+Why Cyber Insurers Now Want Offline Backups. And where archival microfilm fits
+
+2
+00:00:08,500 --> 00:00:19,345
+A cyber insurance underwriter in 2026 wants to see backups that are offline or immutable, with a documented restore test on record, not just a backup that exists.
+
+3
+00:00:19,345 --> 00:00:24,500
+Archival microfilm is offline by physical construction, not by configuration.
+
+4
+00:00:25,500 --> 00:00:33,326
+Encrypted backups stored offline or in immutable form, such as object lock or WORM configuration. Credential isolation from production systems.
+
+5
+00:00:33,326 --> 00:00:36,609
+Documented restore tests, typically within the last 90 days.
+
+6
+00:00:36,609 --> 00:00:43,177
+A backup protected only by Active Directory credentials, with no offline or immutable copy, increasingly fails this bar.
+
+7
+00:00:43,177 --> 00:00:47,500
+Source: Open Metal, citing EUR-Lex (NIS2) and U.S. SEC; Kiplinger; SterlingRisk
+
+8
+00:00:48,500 --> 00:00:54,349
+Cyber premiums fell 2.3% in 2024, the sector's first-ever decrease, and rates were still falling 2-3% in Q3 2025.
+
+9
+00:00:54,349 --> 00:00:58,334
+Kiplinger's 2026 outlook forecasts gradual premium increases for cyber lines.
+
+10
+00:00:58,334 --> 00:01:03,924
+A TechRadar-cited survey found nearly 70% of insurance professionals expect more claims and higher premiums.
+
+11
+00:01:03,924 --> 00:01:10,187
+Average-control businesses may see 5-10% increases; higher-risk organisations may face double-digit hikes or non-renewal.
+
+12
+00:01:10,187 --> 00:01:13,500
+Sources: SterlingRisk Q3 2025; Kiplinger; TechRadar-cited survey
+
+13
+00:01:14,500 --> 00:01:21,987
+Insurer criterion: Offline by default. Immutable cloud: No: needs correct configuration. Offline tape or disk: Only while disconnected. Archival microfilm: Yes, always.
+
+14
+00:01:21,987 --> 00:01:28,315
+Insurer criterion: Configuration risk. Immutable cloud: Yes: misconfiguration defeats it. Offline tape or disk: Low. Archival microfilm: None.
+
+15
+00:01:28,315 --> 00:01:34,999
+Insurer criterion: Credential dependency. Immutable cloud: Yes. Offline tape or disk: Low. Archival microfilm: None. Insurer criterion: Restore tests.
+
+16
+00:01:34,999 --> 00:01:39,500
+Immutable cloud: Ongoing, scheduled. Offline tape or disk: Periodic. Archival microfilm: None needed.
+
+17
+00:01:40,500 --> 00:01:46,609
+Film made to ISO 18901, processed to ISO 18917 and stored to ISO 18911 carries an LE-500 rating.
+
+18
+00:01:46,609 --> 00:01:52,400
+It is a longer-horizon preservation layer for records an institution cannot afford to lose.
+
+19
+00:01:52,400 --> 00:02:01,500
+It does not replace the operational digital backups insurers ask about; live systems still need tested, encrypted offline or immutable backups.
+
+20
+00:02:02,500 --> 00:02:04,444
+Do regulations reinforce this? Yes.
+
+21
+00:02:04,444 --> 00:02:14,389
+The EU's NIS2 Directive requires ten risk-management measures under Article 21, and US-listed companies must disclose material incidents within four business days under SEC rules.
+
+22
+00:02:14,389 --> 00:02:20,500
+Does microfilm replace insurer-required backups? No. It sits underneath them as a separate preservation layer.
+
+23
+00:02:21,500 --> 00:02:24,718
+Add an offline preservation layer. Talk to Micrographics Data in Singapore about archival microfilm, film, chemistry and COM systems.
+
+24
+00:02:24,718 --> 00:02:30,427
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Why Cyber Insurers Now Want Offline Backups, and Where Microfilm Fits Sources: SterlingRisk; Kiplinger; Open Metal citing EUR-Lex (NIS2) and U.S.
+
+25
+00:02:30,427 --> 00:02:30,500
+SEC
+

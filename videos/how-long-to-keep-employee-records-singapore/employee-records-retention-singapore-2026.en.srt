@@ -1,0 +1,92 @@
+1
+00:00:00,500 --> 00:00:07,500
+How Long to Keep Employee Records in Singapore. A 2026 guide for Singapore employers and HR teams
+
+2
+00:00:08,500 --> 00:00:17,158
+Under Singapore's Employment Act, employers must keep employee and salary records covering the latest two years for current employees.
+
+3
+00:00:17,158 --> 00:00:23,620
+For ex-employees, the last two years of records must be kept for one year after the employee leaves.
+
+4
+00:00:23,620 --> 00:00:29,500
+Payroll and tax records sit under longer rules: IRAS and ACRA both set a five-year minimum.
+
+5
+00:00:30,500 --> 00:00:36,787
+Record: Employee and salary records, current employees. Minimum retention: Latest 2 years. Source: Employment Act, MOM. Record: Employee and salary records, ex-employees.
+
+6
+00:00:36,787 --> 00:00:41,817
+Minimum retention: Last 2 years, kept 1 year after leaving. Source: Employment Act, MOM. Record: Payroll and other records used for tax.
+
+7
+00:00:41,817 --> 00:00:46,883
+Minimum retention: 5 years from the Year of Assessment. Source: Income Tax Act, IRAS. Record: Accounting records, including salary costs.
+
+8
+00:00:46,883 --> 00:00:51,617
+Minimum retention: 5 years from end of financial year. Source: Companies Act s199, ACRA. Record: Personal data no longer needed.
+
+9
+00:00:51,617 --> 00:00:55,500
+Minimum retention: No fixed period: dispose once no purpose or legal need. Source: PDPA 2012, section 25.
+
+10
+00:00:56,500 --> 00:01:01,719
+Since 1 April 2016, employers must keep detailed records for all employees covered by the Employment Act.
+
+11
+00:01:01,719 --> 00:01:08,279
+Employee records: such as address, NRIC or work pass number, date of birth, start and leaving dates, working hours, and leave taken.
+
+12
+00:01:08,279 --> 00:01:12,255
+Salary records: pay, allowances, deductions and overtime for each salary period.
+
+13
+00:01:12,255 --> 00:01:18,319
+MOM accepts soft or hard copy, so scanned records can meet the requirement if complete, legible and producible on request.
+
+14
+00:01:18,319 --> 00:01:21,500
+Source: Ministry of Manpower (MOM), as summarised in the article
+
+15
+00:01:22,500 --> 00:01:31,922
+1. List record types: contracts, salary, leave, appraisals, medical, work pass. 2. Assign the longest minimum: usually five years for payroll and tax. 3.
+
+16
+00:01:31,922 --> 00:01:40,113
+Set a trigger: date of leaving, or end of financial year. 4. Choose the format: scan active files; keep paper only where required. 5.
+
+17
+00:01:40,113 --> 00:01:43,500
+Dispose securely: certified destruction, and record it.
+
+18
+00:01:44,500 --> 00:01:52,670
+Does the PDPA set a retention period? No. It requires you to stop retaining personal data once it is no longer needed for its purpose or for legal or business reasons.
+
+19
+00:01:52,670 --> 00:01:58,884
+Archived and scanned files still count as retained. Can employee records be kept digitally? Yes. MOM accepts soft or hard copy.
+
+20
+00:01:58,884 --> 00:02:04,314
+Scans should be complete, legible, indexed and retrievable on request. What happens after the retention period?
+
+21
+00:02:04,314 --> 00:02:09,500
+Paper files are shredded with a certificate of destruction; digital files are deleted with an audit trail.
+
+22
+00:02:10,500 --> 00:02:14,434
+Plan your HR records archive. Micrographics Data, GeBIZ-registered in Singapore and established in 1989, scans, indexes and securely destroys HR records.
+
+23
+00:02:14,434 --> 00:02:19,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: How Long to Keep Employee Records in Singapore (2026) Sources: Ministry of Manpower; IRAS; ACRA; PDPA 2012
+
