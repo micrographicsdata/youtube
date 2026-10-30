@@ -1,0 +1,80 @@
+1
+00:00:00,500 --> 00:00:07,500
+Singapore's Cyber Resilience Mandate: What It Means for Your Archive. A guide for Singapore compliance and IT teams
+
+2
+00:00:08,500 --> 00:00:17,655
+On 22 July 2026, Singapore's Cyber Security Agency (CSA) said boards of critical infrastructure (CII) operators must own cyber recovery, not just prevention.
+
+3
+00:00:17,655 --> 00:00:22,844
+Each board must keep a documented cyber resilience framework, reviewed at least annually.
+
+4
+00:00:22,844 --> 00:00:28,500
+The gap most document archives have is recovery: what happens, in writing, when attackers get in.
+
+5
+00:00:29,500 --> 00:00:38,515
+Risk tolerance: thresholds the board has agreed. Mitigation: measures that reduce the risk. Transfer: mechanisms such as insurance and contractual indemnities.
+
+6
+00:00:38,515 --> 00:00:47,758
+Recovery: a plan, reviewed annually and signed off at board level. CII operators must also work toward Cyber Trust Mark Level 5, covering 22 cybersecurity domains.
+
+7
+00:00:47,758 --> 00:00:51,500
+Applies across all 11 critical sectors under the Cybersecurity Act
+
+8
+00:00:52,500 --> 00:01:03,500
+Who: Auditors and service providers to CII operators. Deadline: 31 December 2026. Who: CII operators and their non-CII-supporting systems. Deadline: 31 December 2027.
+
+9
+00:01:04,500 --> 00:01:09,941
+Many document strategies are strong on prevention: encryption, access control and firewalls.
+
+10
+00:01:09,941 --> 00:01:15,559
+They are weaker on recovery once digital records are compromised, encrypted or quietly altered.
+
+11
+00:01:15,559 --> 00:01:21,296
+A cloud backup encrypted alongside the primary system is a second copy of the same vulnerability.
+
+12
+00:01:21,296 --> 00:01:26,500
+An LE500 microfilm roll is physically air-gapped: it has no network interface to attack.
+
+13
+00:01:27,500 --> 00:01:33,845
+1. Identify board-critical records: statutory filings, contracts, ledgers, personnel records, drawings. 2.
+
+14
+00:01:33,845 --> 00:01:38,933
+Keep existing digital backups: microfilm sits alongside them, not instead of them. 3.
+
+15
+00:01:38,933 --> 00:01:44,500
+Write a permanent copy to microfilm: the AW3 COM system writes digital records to LE500 film.
+
+16
+00:01:45,500 --> 00:01:56,297
+Does this replace MAS TRM or PDPA duties? No. It layers on top, adding board-level documented ownership of recovery. Does it matter if we are not classed as CII? Yes.
+
+17
+00:01:56,297 --> 00:02:03,126
+The ransomware exposure is the same, without a deadline forcing action. How does microfilm help recovery?
+
+18
+00:02:03,126 --> 00:02:09,500
+It cannot be encrypted, deleted or altered over a network, so it is a demonstrable recovery asset.
+
+19
+00:02:10,500 --> 00:02:13,209
+Plan your recovery layer. Talk to Micrographics Data about microfilm, COM systems and document archiving in Singapore.
+
+20
+00:02:13,209 --> 00:02:19,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Singapore's New Cyber Resilience Mandate: What It Means for Your Document Archive Source: Cyber Security Agency of Singapore announcement of 22 July 2026, as summarised in the article
+

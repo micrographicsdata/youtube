@@ -1,0 +1,8 @@
+0:00 Introduction
+0:08 The short answer
+0:29 What the framework must cover
+0:52 Key deadlines
+1:04 Why recovery is the common gap
+1:27 Building a recovery layer your board can sign off
+1:45 Common questions
+2:10 Next steps

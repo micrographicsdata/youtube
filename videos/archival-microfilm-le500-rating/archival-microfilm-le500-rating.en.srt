@@ -1,0 +1,68 @@
+1
+00:00:00,500 --> 00:00:07,500
+What Does an LE-500 Rating Mean for Archival Microfilm?. A guide for archivists and records managers
+
+2
+00:00:08,500 --> 00:00:15,332
+An LE-500 rating (also written LE500) means archival microfilm is expected to stay usable for 500 years.
+
+3
+00:00:15,332 --> 00:00:23,084
+It holds only when the film, its processing and its storage all meet the ISO standards. LE stands for life expectancy.
+
+4
+00:00:23,084 --> 00:00:26,500
+It is the rating specified for preservation masters.
+
+5
+00:00:27,500 --> 00:00:36,257
+Condition: The film. Standard: ISO 18901. What it requires: Silver-gelatin emulsion on a polyester base. Acetate does not qualify.. Condition: The processing.
+
+6
+00:00:36,257 --> 00:00:44,792
+Standard: ISO 18917. What it requires: Fixer residue below set limits, checked with the methylene blue test.. Condition: The storage. Standard: ISO 18911.
+
+7
+00:00:44,792 --> 00:00:50,500
+What it requires: Cool, stable temperature, controlled humidity and clean air, in archival enclosures..
+
+8
+00:00:51,500 --> 00:01:01,937
+It is not a property of the film alone: it rates film, processing and storage together. It does not apply automatically to duplicates, which carry their own ratings.
+
+9
+00:01:01,937 --> 00:01:12,500
+It is not a guarantee of image quality. Legibility is tested separately, against ISO 6199 resolution targets. If any one condition fails, the rating no longer applies.
+
+10
+00:01:13,500 --> 00:01:23,275
+1. Ask for the specification sheet: stating LE-500 to ISO 18901. 2. Require methylene blue results: to ISO 18917 for each processing batch. 3.
+
+11
+00:01:23,275 --> 00:01:32,500
+State the storage conditions: to ISO 18911, or confirm the vault meets them. 4. Ask for readings: resolution and density on each roll.
+
+12
+00:01:33,500 --> 00:01:42,017
+Is LE500 the same as LE-500? Yes. Both spellings refer to the same 500-year rating. Does digital storage have an equivalent rating? No.
+
+13
+00:01:42,017 --> 00:01:48,453
+Digital media have no comparable rating and need regular migration. How is processing quality checked?
+
+14
+00:01:48,453 --> 00:01:53,500
+With the methylene blue test in ISO 18917, which measures residual thiosulphate.
+
+15
+00:01:54,500 --> 00:01:58,186
+Specify LE-500 film. Micrographics Data, a Singapore microfilm supplier since 1989, stocks LE-500 rated archival microfilm and matched chemistry.
+
+16
+00:01:58,186 --> 00:02:01,898
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: What Does an LE-500 Rating Mean for Archival Microfilm?
+
+17
+00:02:01,898 --> 00:02:03,500
+Standards referenced: ISO 18901, ISO 18917, ISO 18911, ISO 6199
+

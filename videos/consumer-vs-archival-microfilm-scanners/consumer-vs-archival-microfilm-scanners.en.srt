@@ -1,0 +1,84 @@
+1
+00:00:00,500 --> 00:00:07,500
+Consumer vs Archival Microfilm Scanners. What is the difference, and which do you need?
+
+2
+00:00:08,500 --> 00:00:11,833
+A consumer film scanner digitises a few frames at a time.
+
+3
+00:00:11,833 --> 00:00:21,073
+An archival (production) microfilm scanner transports whole 16 mm and 35 mm rolls and microfiche, with consistent capture and indexed, quality-checked output.
+
+4
+00:00:21,073 --> 00:00:28,500
+For a records or heritage collection, a consumer scanner cannot keep quality or metadata consistent across thousands of frames.
+
+5
+00:00:29,500 --> 00:00:37,384
+: Film handled. Consumer scanner: Slides, short strips. Archival scanner: 16 mm and 35 mm rolls, fiche. : Transport. Consumer scanner: Manual, frame by frame.
+
+6
+00:00:37,384 --> 00:00:45,568
+Archival scanner: Motorised, tension control. : Frame detection. Consumer scanner: Manual cropping. Archival scanner: Automatic detection and deskew. : Consistency.
+
+7
+00:00:45,568 --> 00:00:52,005
+Consumer scanner: Settings vary. Archival scanner: Fixed resolution and exposure. : Output. Consumer scanner: Single image files.
+
+8
+00:00:52,005 --> 00:00:54,500
+Archival scanner: Batch TIFF, PDF, PDF/A with OCR.
+
+9
+00:00:55,500 --> 00:01:05,236
+FADGI notes microfilm is digitised at a fixed ppi, whatever the original reduction ratio. The original document's scale is lost unless it is recorded in metadata.
+
+10
+00:01:05,236 --> 00:01:14,671
+FADGI grades image quality on a 1 to 4 star scale aligned with ISO 19264. Production scanners are calibrated against test targets, so output can be measured.
+
+11
+00:01:14,671 --> 00:01:20,500
+Source: FADGI Technical Guidelines for Digitizing Cultural Heritage Materials, 3rd edition (2023)
+
+12
+00:01:21,500 --> 00:01:30,140
+Converting whole rolls or fiche sets for a records, library or heritage collection. Output that must be searchable, indexed and quality-checked.
+
+13
+00:01:30,140 --> 00:01:39,500
+Records that may be produced as evidence, where the capture process must be documented. Old or fragile film, including acetate affected by vinegar syndrome.
+
+14
+00:01:40,500 --> 00:01:49,352
+1. Reader-scanner: on-demand lookup and printing in a reading room. 2. Production scanner: in-house conversion of whole collections. 3.
+
+15
+00:01:49,352 --> 00:01:52,500
+Scanning bureau: when there is no in-house team.
+
+16
+00:01:53,500 --> 00:02:02,110
+Can I use a flatbed scanner? It can capture single frames, but has no roll transport or frame detection. Not practical for whole rolls.
+
+17
+00:02:02,110 --> 00:02:11,995
+Should I keep the film after scanning? Yes, if it is in good condition. Many archives keep it as the preservation master. Can a bureau handle acetate film?
+
+18
+00:02:11,995 --> 00:02:18,500
+A specialist can assess condition first. Badly deteriorated film may need duplication before scanning.
+
+19
+00:02:19,500 --> 00:02:22,224
+Digitise your microfilm. Talk to Micrographics Data about microfilm scanners and scanning services in Singapore.
+
+20
+00:02:22,224 --> 00:02:25,970
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Consumer vs Archival Microfilm Scanners: What's the Difference?
+
+21
+00:02:25,970 --> 00:02:28,500
+Source: Federal Agencies Digital Guidelines Initiative (FADGI), Technical Guidelines, 3rd edition (2023)
+
