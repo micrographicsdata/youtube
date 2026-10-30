@@ -2,31 +2,28 @@
   "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED.",
   "posts": [
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "micrographics-data-blogposts",
       "article": "how-long-to-keep-employee-records-singapore",
       "published": "2026-10-26",
       "tier": 0,
-      "video_url": null,
-      "scheduled_for": "2026-10-27T09:15 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=8x7_dIW1jIE"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "microfilm",
       "article": "cyber-insurance-offline-backups-microfilm",
       "published": "2026-10-26",
       "tier": 0,
-      "video_url": null,
-      "scheduled_for": "2026-10-27T09:30 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=sTiASZgzXuk"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "micrographics-data-blogposts",
       "article": "pdpa-cross-border-data-transfer-scanning",
       "published": "2026-10-26",
       "tier": 0,
-      "video_url": null,
-      "scheduled_for": "2026-10-27T09:45 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=6AzEUFfmsVc"
     },
     {
       "status": "test-uploaded-private",
@@ -45,12 +42,13 @@
       "video_url": null
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "micrographics-data-blogposts",
       "article": "singapore-cyber-resilience-mandate-2026",
       "published": "2026-09-07",
       "tier": 1,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-10-30T09:12 Asia/Singapore"
     },
     {
       "status": "done",
@@ -101,12 +99,13 @@
       "video_url": "https://www.youtube.com/watch?v=jqJqTZ2CZOI"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "microfilm",
       "article": "archival-microfilm-le500-rating",
       "published": "2026-10-12",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-10-30T09:27 Asia/Singapore"
     },
     {
       "status": "pending",
@@ -125,12 +124,13 @@
       "video_url": null
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "microfilm",
       "article": "consumer-vs-archival-microfilm-scanners",
       "published": "2026-10-12",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-10-30T09:42 Asia/Singapore"
     },
     {
       "status": "pending",
