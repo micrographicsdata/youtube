@@ -1,0 +1,80 @@
+1
+00:00:00,500 --> 00:00:07,500
+Why ECN-2 Film Lab Costs Are Rising in 2026. Silver, chemistry supply and what a lab can control
+
+2
+00:00:08,500 --> 00:00:18,595
+ECN-2 lab costs are rising because film is built on silver and the chemistry behind developer, bleach and fixer comes from a concentrated supply chain.
+
+3
+00:00:18,595 --> 00:00:28,489
+Silver passed US$80 an ounce for the first time in late December 2025, after more than doubling during the year. A lab cannot move the silver price.
+
+4
+00:00:28,489 --> 00:00:32,500
+It can control how much of each run becomes usable negative.
+
+5
+00:00:33,500 --> 00:00:39,227
+Silver set a series of record highs in December 2025 and briefly traded above US$80 an ounce.
+
+6
+00:00:39,227 --> 00:00:49,571
+Kodak Alaris raised prices on its distributed film stocks by US$1 to US$3 a roll from 1 February 2026. Film is estimated to cost around three times what it did in 2016.
+
+7
+00:00:49,571 --> 00:00:58,500
+Movement is uneven by market: one 2026 survey found an average rise of about 2.5% over six months. Sources: Kitco News; PhotoWorkout; Analog Cafe
+
+8
+00:00:59,500 --> 00:01:06,669
+Factor: Silver price. Can a lab control it?: No. What helps: Plan processing around a calendar. Factor: Chemistry supply chain. Can a lab control it?: No.
+
+9
+00:01:06,669 --> 00:01:14,398
+What helps: Order developer and fixer ahead of need. Factor: Developer temperature. Can a lab control it?: Yes. What helps: Hold the Z-119 setpoint of 41.1°C (106°F).
+
+10
+00:01:14,398 --> 00:01:22,033
+Factor: Agitation and replenishment. Can a lab control it?: Yes. What helps: Keep both consistent between runs. Factor: Reject runs. Can a lab control it?: Largely.
+
+11
+00:01:22,033 --> 00:01:24,500
+What helps: Fewer rerun batches waste less chemistry.
+
+12
+00:01:25,500 --> 00:01:33,088
+A dedicated ECN-2 processor is designed around the Kodak Z-119 process, with temperature control and replenishment set up for it.
+
+13
+00:01:33,088 --> 00:01:41,324
+Converted C-41 minilabs and hand-agitated drums were not designed for ECN-2. Keeping them in specification can take more operator attention.
+
+14
+00:01:41,324 --> 00:01:45,500
+Results depend on the equipment, the operator and the volume processed.
+
+15
+00:01:46,500 --> 00:01:55,251
+1. Silver price: does the late-2025 rally hold or unwind?. 2. Film maker changes: do investment and distribution shifts steady prices?. 3.
+
+16
+00:01:55,251 --> 00:01:59,500
+Chemistry lead times: plan orders against your processing calendar.
+
+17
+00:02:00,500 --> 00:02:09,295
+Is the chemistry problem specific to ECN-2? No. Supply pressure affects photographic chemistry generally, and ECN-2 chemistry sits in the same market.
+
+18
+00:02:09,295 --> 00:02:18,500
+Will costs come back down? No one can say. Some commentators called the silver rally speculative, but chemistry sourcing is a separate, longer-running issue.
+
+19
+00:02:19,500 --> 00:02:23,220
+Plan ECN-2 around cost control. Tell us your monthly footage and the stocks you run. We will specify the ECN-PRO or ECN-PRO3 for your workflow.
+
+20
+00:02:23,220 --> 00:02:28,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Why ECN-2 Film Lab Costs Are Rising in 2026 Sources: Kitco News; PhotoWorkout; Analog Cafe; RedShark News; Kodak
+

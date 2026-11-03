@@ -1,0 +1,60 @@
+1
+00:00:00,500 --> 00:00:07,500
+Why National Archives Still Use Microfilm Preservation Masters. Published practice from major archives and libraries
+
+2
+00:00:08,500 --> 00:00:19,792
+Published preservation policy at major national archives and libraries points to one pattern: microfilm remains the preservation master in most long-term strategies, with digital copies used for access.
+
+3
+00:00:19,792 --> 00:00:26,500
+Silver-halide film on polyester base, processed and stored to standard, carries an ISO life expectancy rating of LE-500.
+
+4
+00:00:27,500 --> 00:00:38,084
+Longevity that is specified: LE-500 under ISO 18901, with storage to ISO 18911. Readable with light and magnification, with no file format or software to maintain.
+
+5
+00:00:38,084 --> 00:00:47,500
+Air-gapped by construction: film in a vault is out of reach of ransomware. Legal recognition varies by country, so confirm what applies in yours.
+
+6
+00:00:48,500 --> 00:00:57,902
+1. Camera negative: the master, stored with restricted access. 2. Print master negative: a duplicate used only to make further copies. 3.
+
+7
+00:00:57,902 --> 00:01:02,500
+Positive service copy: used by researchers and replaced on a cycle.
+
+8
+00:01:03,500 --> 00:01:10,335
+Institution: US National Archives (NARA). Published practice: Agencies must schedule both originals and microforms. Institution: Library of Congress.
+
+9
+00:01:10,335 --> 00:01:15,610
+Published practice: Large preservation microfilming programme, especially newspapers. Institution: British Library.
+
+10
+00:01:15,610 --> 00:01:20,610
+Published practice: Masters in the UK, duplicates held abroad. Institution: Smithsonian Institution Archives.
+
+11
+00:01:20,610 --> 00:01:23,500
+Published practice: Duplicates to reduce handling of originals.
+
+12
+00:01:24,500 --> 00:01:35,539
+Is microfilm only for preservation? No. The prevailing approach is hybrid: film as the preservation master, digital for delivery. Why separate master and duplicate sites?
+
+13
+00:01:35,539 --> 00:01:39,500
+So that no single fire, flood or facility loss can take both.
+
+14
+00:01:40,500 --> 00:01:43,189
+Plan your preservation master. Talk to Micrographics Data about archival microfilm and document scanning in Singapore.
+
+15
+00:01:43,189 --> 00:01:49,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Safeguarding Centuries: Why Microfilm Remains Central for National Archives Sources: NARA; Library of Congress; British Library; Smithsonian Institution Archives; ISO 18901, 18911, 18917
+

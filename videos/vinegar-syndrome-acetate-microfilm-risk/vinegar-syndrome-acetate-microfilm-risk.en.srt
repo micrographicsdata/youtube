@@ -1,0 +1,68 @@
+1
+00:00:00,500 --> 00:00:07,500
+Vinegar Syndrome: Is Your Acetate Microfilm at Risk?. What the British Library's own survey found
+
+2
+00:00:08,500 --> 00:00:13,521
+Vinegar syndrome is the chemical breakdown of cellulose acetate film base.
+
+3
+00:00:13,521 --> 00:00:22,680
+It releases acetic acid, so a vinegar smell from a film can or box is usually the first sign, and it cannot be reversed once it starts.
+
+4
+00:00:22,680 --> 00:00:31,500
+Only acetate-base film is affected: the standard safety film base from the late 1940s until polyester took over through the 1980s.
+
+5
+00:00:32,500 --> 00:00:41,906
+The reaction is autocatalytic: once acidity passes a threshold, decay accelerates on its own. A reel can show little change for decades, then deteriorate quickly.
+
+6
+00:00:41,906 --> 00:00:50,500
+Later symptoms include buckling, shrinking, brittleness and crystalline deposits. Film in that condition is no longer reliably readable or copyable.
+
+7
+00:00:51,500 --> 00:00:59,474
+Condition: Good: no deterioration detected. Share of sampled reels: Just under half. Condition: Fair to good: deterioration has started.
+
+8
+00:00:59,474 --> 00:01:07,448
+Share of sampled reels: Just over half. Condition: Actively deteriorating. Share of sampled reels: 0.2% (one film). Condition: Critical.
+
+9
+00:01:07,448 --> 00:01:09,500
+Share of sampled reels: None found.
+
+10
+00:01:10,500 --> 00:01:19,616
+1. Test with A-D strips: acid detector strips from the Image Permanence Institute. 2. Prioritise by severity: worst-affected reels first. 3.
+
+11
+00:01:19,616 --> 00:01:24,500
+Capture to a stable medium: archival polyester microfilm, digital, or both.
+
+12
+00:01:25,500 --> 00:01:34,990
+Is all microfilm at risk? No. Only acetate-base film is vulnerable. Polyester base does not show vinegar syndrome. Can it be reversed? No.
+
+13
+00:01:34,990 --> 00:01:46,612
+Cold, dry storage slows it, and the content should be captured before the film becomes unreadable. How do I test a collection? Place an A-D strip in a sealed can or box.
+
+14
+00:01:46,612 --> 00:01:49,500
+It changes colour with acetic acid vapour.
+
+15
+00:01:50,500 --> 00:01:53,811
+Get help reformatting at-risk microfilm. Talk to Micrographics Data about microfilming, microfilm scanning and archival polyester film.
+
+16
+00:01:53,811 --> 00:01:57,563
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Vinegar Syndrome: Is Your Pre-1990s Acetate Microfilm at Risk?
+
+17
+00:01:57,563 --> 00:01:59,500
+Source: British Library assessment, LIBER Quarterly; Image Permanence Institute
+
