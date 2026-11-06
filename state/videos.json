@@ -2,13 +2,12 @@
   "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED.",
   "posts": [
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "kodak-motion-film-ecn2-processor",
       "article": "ecn2-film-lab-cost-pressures-2026",
       "published": "2026-11-02",
       "tier": 0,
-      "video_url": null,
-      "scheduled_for": "2026-11-03T09:12 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=N45ifuTZyoM"
     },
     {
       "status": "done",
@@ -115,13 +114,12 @@
       "video_url": "https://www.youtube.com/watch?v=Ew6iRlC4hA4"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "microfilm",
       "article": "vinegar-syndrome-acetate-microfilm-risk",
       "published": "2026-10-10",
       "tier": 2,
-      "video_url": null,
-      "scheduled_for": "2026-11-03T09:27 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=P7CDZH3q2Js"
     },
     {
       "status": "skipped",
@@ -141,61 +139,66 @@
       "video_url": "https://www.youtube.com/watch?v=VWNH5VsHUyQ"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "microfilm",
       "article": "microfilm-national-archives-preservation",
       "published": "2026-09-18",
       "tier": 2,
-      "video_url": null,
-      "scheduled_for": "2026-11-03T09:42 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "microfilm",
       "article": "computer-output-microfilm-com-singapore-2026",
       "published": "2026-09-14",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-11-06T09:10 Asia/Singapore"
     },
     {
-      "status": "pending",
+      "status": "skipped",
       "blog": "microfilm",
       "article": "microfilm-chemistry-supply-crisis-2026",
       "published": "2026-09-07",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "note": "Article says MD manufactures chemistry, names the discontinued maker and pushes ordering urgency. Needs Kelvin's review before any video."
     },
     {
-      "status": "pending",
+      "status": "skipped",
       "blog": "microfilm",
       "article": "global-microfilm-scanner-market-2035",
       "published": "2026-09-14",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "note": "Unattributed market-share and CAGR figures, plus 'ships internationally' claims. Needs Kelvin's review before any video."
     },
     {
-      "status": "pending",
+      "status": "skipped",
       "blog": "microfilm",
       "article": "silver-price-surge-microfilm-cost-2026",
       "published": "2026-09-21",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "note": "Article says Micrographics Data manufactures film, implies bulk/forward-order urgency and gives unsourced cost claims. Needs Kelvin's review before any video."
     },
     {
-      "status": "pending",
+      "status": "skipped",
       "blog": "micrographics-data-blogposts",
       "article": "st-viewscan-5-vs-scanpro-3500",
       "published": "2026-09-14",
       "tier": 2,
-      "video_url": null
+      "video_url": null,
+      "note": "Head-to-head comparison naming a third-party scanner brand; Kelvin to confirm whether it counts as a competitor before any video."
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "heritage-cultural-archiving",
       "article": "heritage-archive-digitisation-singapore",
       "published": "2026-10-13",
       "tier": 3,
-      "video_url": null
+      "video_url": null,
+      "scheduled_for": "2026-11-06T09:25 Asia/Singapore"
     },
     {
       "status": "pending",
