@@ -1,0 +1,8 @@
+0:00 Introduction
+0:08 The short answer
+0:28 What a COM system is
+0:53 The three parts of a COM line
+1:19 Standards a COM output must meet
+1:44 When COM is the right choice
+2:04 Common questions
+2:30 Next steps

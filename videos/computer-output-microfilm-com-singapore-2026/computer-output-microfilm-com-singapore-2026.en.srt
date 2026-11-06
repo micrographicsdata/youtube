@@ -1,0 +1,84 @@
+1
+00:00:00,500 --> 00:00:07,500
+Computer Output Microfilm (COM): How Digital Files Become Archival Film. A guide for Singapore records and archive teams
+
+2
+00:00:08,500 --> 00:00:19,419
+A computer output microfilm (COM) system writes digital files such as TIFF, PDF and JPEG directly onto archival 16 mm or 35 mm silver-halide microfilm, bypassing paper entirely.
+
+3
+00:00:19,419 --> 00:00:27,500
+The result is a human-readable preservation master with an LE-500 life expectancy that needs no software or file migration to read.
+
+4
+00:00:28,500 --> 00:00:31,260
+Also called an archive writer or COM recorder.
+
+5
+00:00:31,260 --> 00:00:38,880
+Exposes digital images and computer-generated output, such as reports, statements and registers, onto film one frame at a time.
+
+6
+00:00:38,880 --> 00:00:45,780
+It is the reverse of microfilm scanning: scanning turns film into digital files, COM turns digital files into film.
+
+7
+00:00:45,780 --> 00:00:52,500
+Used to give scanned and born-digital collections an analogue copy that outlasts storage media and file formats.
+
+8
+00:00:53,500 --> 00:01:02,080
+Part: Archive writer. What it does: Converts digital files into images on 16 mm or 35 mm film. Example: MD AW3 digital archive writer. Part: Processor.
+
+9
+00:01:02,080 --> 00:01:10,432
+What it does: Develops, fixes and washes the exposed film; processing quality decides whether it is archival. Example: MD PRO3 deep-tank processor.
+
+10
+00:01:10,432 --> 00:01:18,500
+Part: Film and chemistry. What it does: Silver-halide archive-writer film rated LE-500, with matched developer and fixer. Example: MGD33 film.
+
+11
+00:01:19,500 --> 00:01:24,977
+ISO 18901: stability specification for processed silver-gelatin film; the source of the LE-500 rating.
+
+12
+00:01:24,977 --> 00:01:33,460
+ISO 18917: residual thiosulphate limits after processing, verified by the methylene blue test. ISO 18911: extended-term storage conditions for processed film.
+
+13
+00:01:33,460 --> 00:01:38,883
+ISO 6199: image quality for microfilmed documents, checked against test targets written on each roll.
+
+14
+00:01:38,883 --> 00:01:43,500
+Meeting all four makes COM output a preservation master rather than a short-term copy.
+
+15
+00:01:44,500 --> 00:01:55,007
+1. Permanent records: registers, court and land records, financial records. 2. Air-gapped resilience: film is offline by nature and cannot be altered by ransomware. 3.
+
+16
+00:01:55,007 --> 00:02:03,500
+No format migration: readable with a lens and a light source. 4. A hybrid strategy: digital for everyday access, film for preservation.
+
+17
+00:02:04,500 --> 00:02:11,402
+Does a COM system need a separate processor? Yes. Exposed film must be developed, fixed and washed to ISO 18917 to be archival.
+
+18
+00:02:11,402 --> 00:02:20,261
+Is COM output usable as a business record in Singapore? The Evidence Act generally admits business records produced and kept under documented, reliable procedures.
+
+19
+00:02:20,261 --> 00:02:29,500
+Keep quality-control procedures for the COM process. Can COM film be scanned back to digital? Yes, on a production microfilm scanner whenever a new access copy is needed.
+
+20
+00:02:30,500 --> 00:02:33,437
+Plan your COM line. Talk to Micrographics Data about archive writers, microfilm and processors in Singapore.
+
+21
+00:02:33,437 --> 00:02:39,500
++65 6472 7255 sales@micrographicsdata.com www.micrographicsdata.com Read the full article: Computer Output Microfilm (COM) Systems: How Digital Files Become Archival Film Standards: ISO 18901, ISO 18917, ISO 18911, ISO 6199
+
