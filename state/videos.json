@@ -209,12 +209,13 @@
       "video_url": null
     },
     {
-      "status": "pending",
+      "status": "test-uploaded-private",
       "blog": "heritage-cultural-archiving",
       "article": "nhb-heritage-grants-digitisation-guide",
       "published": "2026-09-07",
       "tier": 3,
-      "video_url": null
+      "video_url": null,
+      "note": "OpenMontage narrated test, scheduled private via Metricool 2026-11-09 01:34 SGT (post 420920147); routine records video_url once published"
     },
     {
       "status": "pending",
