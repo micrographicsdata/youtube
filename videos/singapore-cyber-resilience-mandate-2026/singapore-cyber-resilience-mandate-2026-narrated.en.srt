@@ -1,0 +1,55 @@
+1
+00:00:00,600 --> 00:00:05,680
+Singapore's critical infrastructure boards must now own cyber recovery, in writing.
+
+2
+00:00:06,030 --> 00:00:09,030
+Here's what that means for your document archive.
+
+3
+00:00:09,530 --> 00:00:18,310
+On 22 July 2026, the Cyber Security Agency set a new standard for boards of critical infrastructure operators across all 11 sectors.
+
+4
+00:00:18,660 --> 00:00:28,440
+Each board needs a documented cyber resilience framework covering risk tolerance, mitigation, transfer and recovery, reviewed at least once a year.
+
+5
+00:00:28,940 --> 00:00:30,500
+Two dates matter.
+
+6
+00:00:30,850 --> 00:00:36,620
+Auditors and service providers must comply by 31 December 2026.
+
+7
+00:00:36,970 --> 00:00:41,460
+Operators themselves have until 31 December 2027.
+
+8
+00:00:41,960 --> 00:00:45,820
+Most archives are strong on prevention and weak on recovery.
+
+9
+00:00:46,170 --> 00:00:52,550
+A cloud backup encrypted alongside the main system is just a second copy of the same vulnerability.
+
+10
+00:00:53,050 --> 00:00:55,400
+Archival microfilm closes that gap.
+
+11
+00:00:55,750 --> 00:01:02,270
+LE-500 film has no network interface, so it cannot be encrypted, exfiltrated or altered remotely.
+
+12
+00:01:02,620 --> 00:01:09,680
+Identify your board-critical records, and keep a permanent microfilm copy alongside your digital backups.
+
+13
+00:01:10,180 --> 00:01:16,370
+Micrographics Data can help you scope a recovery-layer archive before the December 2026 deadline.
+
+14
+00:01:16,720 --> 00:01:19,590
+Request a quote at micrographicsdata.com.

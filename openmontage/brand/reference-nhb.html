@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>NHB Heritage Grants: Where Digitisation Fits</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+  :root {
+    --navy: #0b2545; --deep: #061a33; --panel: #12325c; --paper: #f3ebdd; --paper2: #e6d9c3;
+    --amber: #e0a526; --amber2: #f2c35e; --light: #d6e2f2; --ink: #1c2633; --muted: #9fb3cf;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--deep); font-family: "Segoe UI", Inter, Arial, sans-serif; color: var(--paper); }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+  .layer { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  .fill { position: absolute; inset: 0; }
+  .serif { font-family: Georgia, "Times New Roman", serif; }
+  .kicker { font-size: 26px; letter-spacing: 6px; text-transform: uppercase; color: var(--amber); font-weight: 600; }
+  .scene { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  .abs { position: absolute; }
+  .blk { display: block; }
+
+  /* persistent base */
+  #bg { background: radial-gradient(1200px 800px at 75% 30%, #173d6b 0%, var(--navy) 45%, var(--deep) 100%); }
+  #grain { opacity: .07; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='7'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>"); }
+  #strip { position: absolute; left: 0; top: 968px; width: 3840px; height: 64px; background: #0a0f17; opacity: .55; }
+  #strip .perf { position: absolute; top: 8px; width: 3840px; height: 10px;
+    background: repeating-linear-gradient(90deg, transparent 0 18px, #3a3f48 18px 32px); }
+  #strip .perf.b { top: 46px; }
+  #strip .frames { position: absolute; top: 22px; width: 3840px; height: 20px;
+    background: repeating-linear-gradient(90deg, #2a2116 0 150px, #0a0f17 150px 160px); opacity: .9; }
+  #brand { left: 90px; top: 1040px; font-size: 20px; letter-spacing: 4px; color: var(--muted); font-weight: 600; }
+  #progress { left: 0; top: 1074px; width: 1920px; height: 6px; background: var(--amber); transform-origin: 0 50%; opacity: .8; }
+
+  /* A1 shelving */
+  #a1-shelves { left: 1000px; top: 170px; width: 780px; height: 720px; }
+  .shelf { position: absolute; left: 0; width: 780px; height: 8px; background: var(--paper2); transform-origin: 0 50%; border-radius: 2px; }
+  .box { position: absolute; height: 120px; background: linear-gradient(180deg, #efe4d0, #d9c8aa); border-radius: 4px; box-shadow: 0 6px 0 rgba(0,0,0,.25); }
+  .box .tab { position: absolute; left: 22px; top: 22px; width: 60%; height: 18px; background: rgba(28,38,51,.18); border-radius: 2px; }
+  #a1-text { left: 130px; top: 300px; width: 820px; }
+  #a1-head { font-size: 86px; line-height: 1.08; margin: 26px 0 0; font-weight: 400; }
+  #a1-head span { display: inline-block; margin-right: 18px; }
+
+  /* A2 photographs + date */
+  .photo { position: absolute; left: 190px; top: 300px; width: 400px; height: 300px; background: #fbf6ec; padding: 16px; box-shadow: 0 18px 40px rgba(0,0,0,.45); transform-origin: 50% 90%; }
+  .photo div { width: 100%; height: 100%; }
+  #a2-date { left: 860px; top: 280px; width: 900px; }
+  #a2-big { font-size: 170px; line-height: 1; margin: 0; }
+  #a2-rule { width: 520px; height: 10px; background: var(--amber); transform-origin: 0 50%; margin: 18px 0 28px; }
+  #a2-note { font-size: 34px; color: var(--light); line-height: 1.4; max-width: 880px; }
+
+  /* B grants */
+  #b-arch { left: 170px; top: 230px; width: 520px; height: 640px; border: 8px solid var(--paper2); border-bottom: none; border-radius: 260px 260px 0 0; transform-origin: 50% 100%; }
+  #b-arch-in { left: 255px; top: 330px; width: 350px; height: 540px; border: 3px solid rgba(230,217,195,.35); border-bottom: none; border-radius: 175px 175px 0 0; transform-origin: 50% 100%; }
+  #b-text { left: 820px; top: 210px; width: 960px; }
+  .card { width: 900px; padding: 34px 40px; margin-top: 28px; background: var(--panel); border-left: 10px solid var(--amber); font-size: 52px; }
+  #b-co { margin-top: 44px; font-size: 40px; color: var(--light); }
+  #b-co-word { display: inline-block; position: relative; color: var(--paper); font-weight: 600; }
+  #b-co-line { position: absolute; left: 0; bottom: -10px; width: 100%; height: 6px; background: var(--amber); transform-origin: 0 50%; }
+
+  /* C applicants */
+  #c-wrap { left: 130px; top: 220px; width: 1660px; }
+  .chip { display: inline-block; font-size: 46px; padding: 22px 40px; margin: 0 22px 22px 0; border: 3px solid var(--paper2); border-radius: 60px; }
+  #c-arrow { width: 160px; height: 6px; background: var(--amber); transform-origin: 0 50%; margin: 30px 0; }
+  #c-portal { display: inline-block; font-size: 50px; padding: 26px 46px; background: var(--amber); color: var(--deep); font-weight: 700; border-radius: 8px; }
+  #c-fin { left: 130px; top: 700px; width: 1660px; font-size: 44px; color: var(--light); }
+  #c-fin b { color: var(--paper); }
+  .ring { position: absolute; top: 0; width: 120px; height: 120px; border-radius: 60px; border: 6px solid var(--amber); }
+
+  /* D year ribbon */
+  #d-title { left: 130px; top: 170px; width: 1660px; }
+  #d-ribbon { left: 130px; top: 520px; width: 1660px; height: 150px; }
+  .month { position: absolute; top: 0; width: 134px; height: 150px; background: rgba(214,226,242,.08); border: 2px solid rgba(214,226,242,.25); border-radius: 6px; font-size: 34px; color: var(--light); text-align: center; line-height: 150px; }
+  .month { z-index: 2; }
+  .band { position: absolute; z-index: 1; top: -18px; height: 186px; background: rgba(224,165,38,.55); border-radius: 8px; transform-origin: 0 50%; }
+  .band-label { position: absolute; top: -92px; font-size: 40px; color: var(--amber2); font-weight: 600; white-space: nowrap; }
+  #d-foot { left: 130px; top: 800px; width: 1660px; font-size: 30px; color: var(--muted); }
+
+  /* E ledger */
+  #e-stamp { left: 130px; top: 150px; width: 640px; padding: 18px 26px; border: 6px solid var(--amber); color: var(--amber); font-size: 44px; font-weight: 800; letter-spacing: 4px; text-align: center; }
+  #e-book { left: 900px; top: 300px; width: 860px; height: 560px; }
+  .page { position: absolute; top: 0; width: 430px; height: 560px; background: linear-gradient(90deg, #e8dcc6, #f6efe2); box-shadow: 0 20px 40px rgba(0,0,0,.4); }
+  .page .ln { position: absolute; left: 44px; width: 340px; height: 4px; background: rgba(28,38,51,.18); }
+  #e-turn { left: 430px; transform-origin: 0 50%; background: linear-gradient(270deg, #e8dcc6, #f6efe2); }
+  #e-text { left: 130px; top: 420px; width: 700px; font-size: 56px; line-height: 1.2; }
+  #e-text2 { left: 130px; top: 700px; width: 700px; font-size: 38px; color: var(--light); line-height: 1.35; }
+
+  /* F lightbox */
+  #f-box { left: 360px; top: 380px; width: 1200px; height: 420px; background: #fff7e6; border-radius: 14px; box-shadow: 0 0 120px rgba(255,236,190,.55); overflow: hidden; }
+  #f-film { position: absolute; left: 0; top: 110px; width: 2600px; height: 200px; background: #2b2118; }
+  #f-film .fr { position: absolute; top: 34px; width: 240px; height: 132px; background: linear-gradient(135deg, #8a6a43, #4a3524); border-radius: 3px; opacity: .85; }
+  #f-film .pf { position: absolute; left: 0; width: 2600px; height: 14px; background: repeating-linear-gradient(90deg, transparent 0 16px, #fff7e6 16px 30px); opacity: .7; }
+  #f-cap { left: 360px; top: 170px; width: 1200px; text-align: center; font-size: 52px; }
+  #f-cap2 { left: 360px; top: 850px; width: 1200px; text-align: center; font-size: 40px; color: var(--amber2); font-weight: 600; }
+
+  /* G materials */
+  #g-title { left: 130px; top: 140px; width: 1660px; }
+  .tile { position: absolute; top: 330px; width: 380px; height: 520px; background: var(--panel); border-radius: 10px; border-top: 8px solid var(--amber); }
+  .tile .ico { position: absolute; left: 70px; top: 70px; width: 240px; height: 240px; }
+  .tile .lbl { position: absolute; left: 0; top: 360px; width: 380px; text-align: center; font-size: 40px; line-height: 1.2; }
+  .glass { position: absolute; left: 30px; top: 20px; width: 180px; height: 200px; background: rgba(214,226,242,.18); border: 4px solid var(--light); border-radius: 4px; }
+  .glass i { position: absolute; left: 30px; top: 40px; width: 112px; height: 110px; background: rgba(214,226,242,.35); border-radius: 2px; }
+  .fstrip { position: absolute; left: 0; top: 70px; width: 240px; height: 100px; background: #0a0f17; border-radius: 4px;
+    background-image: repeating-linear-gradient(90deg, transparent 0 10px, #3a3f48 10px 20px), repeating-linear-gradient(90deg, #8a6a43 0 70px, #0a0f17 70px 80px);
+    background-size: 240px 12px, 240px 52px; background-position: 0 6px, 0 24px; background-repeat: repeat-x; }
+  .book { position: absolute; left: 30px; top: 30px; width: 180px; height: 190px; background: #7b4b2a; border-radius: 6px 12px 12px 6px; box-shadow: inset 18px 0 0 #5a3420; }
+  .book i { position: absolute; left: 38px; top: 50px; width: 120px; height: 14px; background: var(--amber); }
+  .sheet { position: absolute; width: 170px; height: 210px; background: var(--paper); border-radius: 3px; box-shadow: 0 4px 10px rgba(0,0,0,.35); }
+
+  /* H checklist */
+  #h-title { left: 130px; top: 130px; width: 1100px; }
+  .row { position: absolute; left: 130px; width: 1080px; height: 130px; }
+  .row .num { position: absolute; left: 0; top: 18px; width: 92px; height: 92px; border-radius: 46px; border: 4px solid var(--amber); font-size: 46px; text-align: center; line-height: 84px; color: var(--amber); font-weight: 700; }
+  .row .dot { position: absolute; left: 0; top: 18px; width: 92px; height: 92px; border-radius: 46px; background: var(--amber); }
+  .row .tick { position: absolute; left: 22px; top: 34px; width: 48px; height: 26px; border-left: 9px solid var(--deep); border-bottom: 9px solid var(--deep); transform: rotate(-45deg); transform-origin: 50% 50%; }
+  .row .txt { position: absolute; left: 130px; top: 14px; width: 950px; font-size: 44px; line-height: 1.2; }
+  .row .txt small { display: block; font-size: 30px; color: var(--muted); margin-top: 6px; }
+  #h-reel { left: 1400px; top: 0; width: 200px; height: 2400px; background: #0a0f17; opacity: .6;
+    background-image: repeating-linear-gradient(180deg, transparent 0 16px, #3a3f48 16px 30px), repeating-linear-gradient(180deg, #2a2116 0 150px, #0a0f17 150px 164px);
+    background-size: 16px 2400px, 120px 2400px; background-position: 12px 0, 40px 0; background-repeat: no-repeat; }
+  #h-boxwrap { left: 1330px; top: 470px; width: 420px; height: 420px; }
+  #h-box { position: absolute; left: 30px; top: 170px; width: 360px; height: 220px; background: linear-gradient(180deg, #efe4d0, #cdb994); border-radius: 4px; }
+  #h-lid { position: absolute; left: 14px; top: 0; width: 392px; height: 56px; background: #e6d9c3; border-radius: 4px; box-shadow: 0 6px 0 rgba(0,0,0,.25); }
+  #h-badge { position: absolute; left: 60px; top: 250px; width: 300px; padding: 12px; background: var(--navy); border: 3px solid var(--amber); text-align: center; font-size: 34px; color: var(--amber2); font-weight: 700; }
+
+  /* J end card */
+  #j-fill { background: radial-gradient(1000px 700px at 50% 40%, #12325c 0%, var(--navy) 50%, var(--deep) 100%); }
+  #j-wrap { left: 160px; top: 200px; width: 1600px; text-align: center; }
+  #j-brand { font-size: 30px; letter-spacing: 10px; color: var(--muted); font-weight: 600; }
+  #j-rule { width: 260px; height: 8px; background: var(--amber); margin: 34px auto; transform-origin: 50% 50%; }
+  #j-cta { font-size: 112px; margin: 0; }
+  #j-sub { font-size: 40px; color: var(--light); margin-top: 26px; }
+  #j-contact { font-size: 40px; margin-top: 60px; color: var(--paper); }
+  #j-contact span { display: inline-block; margin: 0 26px; }
+  #j-addr { font-size: 28px; color: var(--muted); margin-top: 40px; }
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-width="1920" data-height="1080" data-duration="82.66">
+
+  <!-- persistent base (track 0) -->
+  <div id="base" class="clip layer" data-start="0" data-duration="82.66" data-track-index="0">
+    <div id="bg" class="fill"></div>
+    <div id="grain" class="fill"></div>
+    <div id="strip"><div class="perf"></div><div class="frames"></div><div class="perf b"></div></div>
+    <div id="brand" class="abs">MICROGRAPHICS DATA &nbsp;·&nbsp; SINGAPORE &nbsp;·&nbsp; SINCE 1989</div>
+    <div id="progress" class="abs"></div>
+  </div>
+
+  <!-- A1: archive shelving + title -->
+  <section id="sA1" class="clip scene" data-start="0" data-duration="5.4" data-track-index="1">
+    <div id="a1-shelves" class="abs">
+      <div class="shelf" style="top:150px"></div><div class="shelf" style="top:330px"></div>
+      <div class="shelf" style="top:510px"></div><div class="shelf" style="top:690px"></div>
+      <div class="box b1" style="left:10px;top:28px;width:150px"><div class="tab"></div></div>
+      <div class="box b1" style="left:175px;top:28px;width:120px"><div class="tab"></div></div>
+      <div class="box b1" style="left:310px;top:28px;width:170px"><div class="tab"></div></div>
+      <div class="box b1" style="left:495px;top:28px;width:130px"><div class="tab"></div></div>
+      <div class="box b2" style="left:10px;top:208px;width:190px"><div class="tab"></div></div>
+      <div class="box b2" style="left:215px;top:208px;width:140px"><div class="tab"></div></div>
+      <div class="box b2" style="left:370px;top:208px;width:160px"><div class="tab"></div></div>
+      <div class="box b3" style="left:10px;top:388px;width:130px"><div class="tab"></div></div>
+      <div class="box b3" style="left:155px;top:388px;width:170px"><div class="tab"></div></div>
+      <div class="box b3" style="left:340px;top:388px;width:150px"><div class="tab"></div></div>
+      <div class="box b3" style="left:505px;top:388px;width:160px"><div class="tab"></div></div>
+      <div class="box b4" style="left:10px;top:568px;width:160px"><div class="tab"></div></div>
+      <div class="box b4" style="left:185px;top:568px;width:200px"><div class="tab"></div></div>
+    </div>
+    <div id="a1-text" class="abs">
+      <div id="a1-kick" class="kicker">NHB Heritage Grants</div>
+      <h1 id="a1-head" class="serif"><span>Where</span><span>digitisation</span><span>fits</span><span>your</span><span>application</span></h1>
+    </div>
+  </section>
+
+  <!-- A2: photographs + next window -->
+  <section id="sA2" class="clip scene" data-start="5.4" data-duration="3.55" data-track-index="1">
+    <div class="photo p1"><div style="background:linear-gradient(135deg,#b08d5f,#5e4630)"></div></div>
+    <div class="photo p2"><div style="background:linear-gradient(135deg,#9c8a70,#4b4033)"></div></div>
+    <div class="photo p3"><div style="background:linear-gradient(135deg,#c2a27a,#6b4f36)"></div></div>
+    <div id="a2-date" class="abs">
+      <div class="kicker">Next window expected</div>
+      <h2 id="a2-big" class="serif">4 March</h2>
+      <div id="a2-rule" class="blk"></div>
+      <div id="a2-note">2027, if NHB keeps the same pattern. Confirm on the OurSG Grants Portal.</div>
+    </div>
+  </section>
+
+  <!-- B: two grants -->
+  <section id="sB" class="clip scene" data-start="8.95" data-duration="6.15" data-track-index="1">
+    <div id="b-arch" class="abs"></div><div id="b-arch-in" class="abs"></div>
+    <div id="b-text" class="abs">
+      <div class="kicker">National Heritage Board · Heritage Grants Scheme</div>
+      <div class="card serif" id="b-c1">Minor Project Grant</div>
+      <div class="card serif" id="b-c2">Major Project Grant</div>
+      <div id="b-co">Both are <span id="b-co-word">co-funding<span id="b-co-line" class="abs"></span></span> grants</div>
+    </div>
+  </section>
+
+  <!-- C: who applies, how, financing -->
+  <section id="sC" class="clip scene" data-start="15.1" data-duration="10.11" data-track-index="1">
+    <div id="c-wrap" class="abs">
+      <div class="kicker" style="margin-bottom:34px">Who can apply</div>
+      <div><span class="chip" id="c-ch1">Non-profits</span><span class="chip" id="c-ch2">Cultural groups</span><span class="chip" id="c-ch3">Individuals</span></div>
+      <div id="c-arrow" class="blk"></div>
+      <div id="c-portal">Apply via the OurSG Grants Portal</div>
+    </div>
+    <div id="c-fin" class="abs">Because they <b>co-fund</b>, your application shows how the rest of the project is financed.</div>
+  </section>
+
+  <!-- D: windows ribbon -->
+  <section id="sD" class="clip scene" data-start="25.21" data-duration="5.79" data-track-index="1">
+    <div id="d-title" class="abs"><div class="kicker">Application windows</div>
+      <div class="serif" style="font-size:72px;margin-top:20px">Twice a year, as run to date</div></div>
+    <div id="d-ribbon" class="abs">
+      <div class="month m" style="left:0">Jan</div><div class="month m" style="left:138px">Feb</div><div class="month m" style="left:276px">Mar</div>
+      <div class="month m" style="left:414px">Apr</div><div class="month m" style="left:552px">May</div><div class="month m" style="left:690px">Jun</div>
+      <div class="month m" style="left:828px">Jul</div><div class="month m" style="left:966px">Aug</div><div class="month m" style="left:1104px">Sep</div>
+      <div class="month m" style="left:1242px">Oct</div><div class="month m" style="left:1380px">Nov</div><div class="month m" style="left:1518px">Dec</div>
+      <div class="band" id="d-b1" style="left:290px;width:190px"></div>
+      <div class="band" id="d-b2" style="left:980px;width:190px"></div>
+      <div class="band-label" id="d-l1" style="left:250px">4 Mar – 15 Apr</div>
+      <div class="band-label" id="d-l2" style="left:940px">4 Aug – 15 Sep</div>
+    </div>
+    <div id="d-foot" class="abs">Source: Micrographics Data article, citing NHB's published windows. Confirm current dates with NHB.</div>
+  </section>
+
+  <!-- E: closed + prepare -->
+  <section id="sE" class="clip scene" data-start="31.0" data-duration="7.28" data-track-index="1">
+    <div id="e-stamp" class="abs">BOTH 2026 WINDOWS CLOSED</div>
+    <div id="e-text" class="abs serif">Use the months ahead to prepare.</div>
+    <div id="e-text2" class="abs">Confirm the dates on the OurSG Grants Portal.</div>
+    <div id="e-book" class="abs">
+      <div class="page" style="left:0"><div class="ln" style="top:80px"></div><div class="ln" style="top:130px"></div><div class="ln" style="top:180px"></div><div class="ln" style="top:230px"></div><div class="ln" style="top:280px"></div></div>
+      <div class="page" style="left:430px"><div class="ln" style="top:80px"></div><div class="ln" style="top:130px"></div><div class="ln" style="top:180px"></div></div>
+      <div class="page" id="e-turn"><div class="ln" style="top:80px"></div><div class="ln" style="top:130px"></div><div class="ln" style="top:180px"></div><div class="ln" style="top:230px"></div></div>
+    </div>
+  </section>
+
+  <!-- F: lightbox + caveat -->
+  <section id="sF" class="clip scene" data-start="38.28" data-duration="4.62" data-track-index="1">
+    <div id="f-cap" class="abs serif">Qualifying costs are set by NHB's guidelines.</div>
+    <div id="f-box" class="abs">
+      <div id="f-film">
+        <div class="pf" style="top:10px"></div><div class="pf" style="top:176px"></div>
+        <div class="fr" style="left:40px"></div><div class="fr" style="left:300px"></div><div class="fr" style="left:560px"></div>
+        <div class="fr" style="left:820px"></div><div class="fr" style="left:1080px"></div><div class="fr" style="left:1340px"></div>
+        <div class="fr" style="left:1600px"></div><div class="fr" style="left:1860px"></div><div class="fr" style="left:2120px"></div>
+      </div>
+    </div>
+    <div id="f-cap2" class="abs">Check with NHB first.</div>
+  </section>
+
+  <!-- G: materials -->
+  <section id="sG" class="clip scene" data-start="42.9" data-duration="10.36" data-track-index="1">
+    <div id="g-title" class="abs"><div class="kicker">Commonly budgeted in access and preservation projects</div>
+      <div class="serif" style="font-size:66px;margin-top:20px">Digitising the collection itself</div></div>
+    <div class="tile" id="g-t1" style="left:130px"><div class="ico"><div class="glass"><i></i></div></div><div class="lbl">Glass-plate negatives</div></div>
+    <div class="tile" id="g-t2" style="left:560px"><div class="ico"><div class="fstrip"></div></div><div class="lbl">Film strips</div></div>
+    <div class="tile" id="g-t3" style="left:990px"><div class="ico"><div class="book"><i></i></div></div><div class="lbl">Fragile books</div></div>
+    <div class="tile" id="g-t4" style="left:1420px"><div class="ico">
+      <div class="sheet" style="left:20px;top:30px;transform:rotate(-6deg)"></div>
+      <div class="sheet" style="left:40px;top:20px;transform:rotate(3deg)"></div>
+      <div class="sheet" style="left:30px;top:24px"></div></div><div class="lbl">Paper archives</div></div>
+  </section>
+
+  <!-- H: four-part scope + originals -->
+  <section id="sH" class="clip scene" data-start="53.26" data-duration="18.16" data-track-index="1">
+    <div id="h-reel" class="abs"></div>
+    <div id="h-title" class="abs"><div class="kicker">A grant-ready scope</div>
+      <div class="serif" style="font-size:70px;margin-top:18px">answers four things</div></div>
+    <div class="row" id="h-r1" style="top:380px"><div class="num">1</div><div class="dot"></div><div class="tick"></div>
+      <div class="txt">What you are digitising, and why</div></div>
+    <div class="row" id="h-r2" style="top:530px"><div class="num">2</div><div class="dot"></div><div class="tick"></div>
+      <div class="txt">How it will be captured<small>FADGI or Metamorfoze guidelines</small></div></div>
+    <div class="row" id="h-r3" style="top:680px"><div class="num">3</div><div class="dot"></div><div class="tick"></div>
+      <div class="txt">Where the files will live<small>e.g. a collections management system or structured storage</small></div></div>
+    <div class="row" id="h-r4" style="top:830px"><div class="num">4</div><div class="dot"></div><div class="tick"></div>
+      <div class="txt">How the originals will be stored<small>ISO 11799 storage environment</small></div></div>
+    <div id="h-boxwrap" class="abs"><div id="h-box"></div><div id="h-lid"></div><div id="h-badge">ISO 11799</div></div>
+  </section>
+
+  <!-- J: end card -->
+  <section id="sJ" class="clip scene" data-start="71.42" data-duration="11.24" data-track-index="2">
+    <div id="j-fill" class="fill"></div>
+    <div id="j-wrap" class="abs">
+      <div id="j-brand">MICROGRAPHICS DATA</div>
+      <div id="j-rule" class="blk"></div>
+      <h2 id="j-cta" class="serif">Request a Quote</h2>
+      <div id="j-sub">A costed, standards-referenced digitisation scope to attach to your application</div>
+      <div id="j-contact"><span>www.micrographicsdata.com</span><span>+65 6472 7255</span><span>sales@micrographicsdata.com</span></div>
+      <div id="j-addr">115A Commonwealth Drive #02-16, Singapore 149596</div>
+    </div>
+  </section>
+
+  <audio id="mix" src="assets/mix.wav" data-start="0" data-duration="82.66" data-track-index="10" data-volume="1"></audio>
+</div>
+
+<script>
+  window.__timelines = window.__timelines || {};
+  const T = 82.66;
+  const tl = gsap.timeline({ paused: true });
+
+  // scene fades (in at start, out before end)
+  function scene(id, a, b, fin = 0.5, fout = 0.45) {
+    tl.fromTo(id, { opacity: 0 }, { opacity: 1, duration: fin, ease: "power1.out" }, a);
+    tl.to(id, { opacity: 0, duration: fout, ease: "power1.in" }, b - fout);
+  }
+
+  // persistent
+  tl.fromTo("#strip", { x: 0 }, { x: -1920, duration: T, ease: "none" }, 0);
+  tl.fromTo("#progress", { scaleX: 0 }, { scaleX: 1, duration: T, ease: "none" }, 0);
+  tl.fromTo("#grain", { x: 0, y: 0 }, { x: -40, y: -30, duration: T, ease: "none" }, 0);
+
+  // A1 0 - 5.4
+  scene("#sA1", 0, 5.4, 0.6);
+  tl.fromTo("#a1-shelves .shelf", { scaleX: 0 }, { scaleX: 1, duration: 0.9, ease: "power3.out", stagger: 0.18 }, 0.3);
+  tl.fromTo("#a1-shelves .box", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "back.out(1.6)", stagger: 0.09 }, 0.9);
+  tl.fromTo("#a1-kick", { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "power2.out" }, 0.5);
+  tl.fromTo("#a1-head span", { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power3.out", stagger: 0.12 }, 0.8);
+  tl.fromTo("#a1-shelves", { scale: 1 }, { scale: 1.06, duration: 5.4, ease: "none" }, 0);
+
+  // A2 5.4 - 8.95
+  scene("#sA2", 5.4, 8.95, 0.4);
+  tl.fromTo(".p1", { rotation: 0, x: 0, y: 40, opacity: 0 }, { rotation: -10, x: -60, y: 10, opacity: 1, duration: 0.8, ease: "power3.out" }, 5.5);
+  tl.fromTo(".p2", { rotation: 0, y: 40, opacity: 0 }, { rotation: 2, x: 10, y: -10, opacity: 1, duration: 0.8, ease: "power3.out" }, 5.65);
+  tl.fromTo(".p3", { rotation: 0, y: 40, opacity: 0 }, { rotation: 11, x: 90, y: 20, opacity: 1, duration: 0.8, ease: "power3.out" }, 5.8);
+  tl.fromTo("#a2-big", { y: 50, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 5.7);
+  tl.fromTo("#a2-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power2.inOut" }, 6.2);
+  tl.fromTo("#a2-note", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.6 }, 6.7);
+
+  // B 8.95 - 15.1
+  scene("#sB", 8.95, 15.1);
+  tl.fromTo("#b-arch", { scaleY: 0 }, { scaleY: 1, duration: 1.2, ease: "power3.out" }, 9.0);
+  tl.fromTo("#b-arch-in", { scaleY: 0 }, { scaleY: 1, duration: 1.2, ease: "power3.out" }, 9.3);
+  tl.fromTo("#b-c1", { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 11.6);
+  tl.fromTo("#b-c2", { x: 80, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 12.6);
+  tl.fromTo("#b-co", { opacity: 0 }, { opacity: 1, duration: 0.5 }, 13.2);
+  tl.fromTo("#b-co-line", { scaleX: 0 }, { scaleX: 1, duration: 0.7, ease: "power2.out" }, 13.6);
+
+  // C 15.1 - 25.21
+  scene("#sC", 15.1, 25.21);
+  tl.fromTo("#c-ch1", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 15.2);
+  tl.fromTo("#c-ch2", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 16.0);
+  tl.fromTo("#c-ch3", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 17.0);
+  tl.fromTo("#c-arrow", { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: "power2.out" }, 17.9);
+  tl.fromTo("#c-portal", { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 18.3);
+  tl.fromTo("#c-fin", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 20.6);
+
+  // D 25.21 - 31.0
+  scene("#sD", 25.21, 31.0);
+  tl.fromTo("#d-ribbon .m", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.4, ease: "power2.out", stagger: 0.06 }, 25.4);
+  tl.fromTo("#d-b1", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power2.inOut" }, 27.0);
+  tl.fromTo("#d-l1", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5 }, 27.4);
+  tl.fromTo("#d-b2", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power2.inOut" }, 28.6);
+  tl.fromTo("#d-l2", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.5 }, 29.0);
+  tl.fromTo("#d-foot", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 29.4);
+
+  // E 31.0 - 38.28
+  scene("#sE", 31.0, 38.28);
+  tl.fromTo("#e-stamp", { scale: 1.5, rotation: -14, opacity: 0 }, { scale: 1, rotation: -4, opacity: 1, duration: 0.45, ease: "power4.in" }, 31.3);
+  tl.fromTo("#e-book", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 31.6);
+  tl.fromTo("#e-text", { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 32.6);
+  tl.fromTo("#e-turn", { rotationY: 0, transformPerspective: 1600 }, { rotationY: -178, duration: 1.4, ease: "power2.inOut" }, 33.6);
+  tl.fromTo("#e-text2", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6, ease: "power2.out" }, 35.9);
+
+  // F 38.28 - 42.9
+  scene("#sF", 38.28, 42.9);
+  tl.fromTo("#f-box", { scale: 0.92, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.8, ease: "power2.out" }, 38.4);
+  tl.fromTo("#f-film", { x: 0 }, { x: -1400, duration: 4.6, ease: "none" }, 38.28);
+  tl.fromTo("#f-cap", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, 38.5);
+  tl.fromTo("#f-cap2", { y: 24, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, 40.6);
+
+  // G 42.9 - 53.26
+  scene("#sG", 42.9, 53.26);
+  tl.fromTo("#g-title", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 43.1);
+  [["#g-t1", 47.8], ["#g-t2", 49.0], ["#g-t3", 50.1], ["#g-t4", 51.1]].forEach(([s, t]) => {
+    tl.fromTo(s, { y: -120, opacity: 0, rotation: -3 }, { y: 0, opacity: 1, rotation: 0, duration: 0.7, ease: "bounce.out" }, t);
+  });
+
+  // H 53.26 - 71.42
+  scene("#sH", 53.26, 71.42);
+  tl.fromTo("#h-reel", { y: 0 }, { y: -1300, duration: 13.6, ease: "none" }, 53.26);
+  tl.fromTo("#h-title", { y: 30, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 53.4);
+  [["#h-r1", 56.7], ["#h-r2", 59.6], ["#h-r3", 64.6], ["#h-r4", 67.0]].forEach(([r, t]) => {
+    tl.fromTo(r, { x: -50, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, t);
+    tl.fromTo(r + " .dot", { scale: 0 }, { scale: 1, duration: 0.35, ease: "back.out(2)" }, t + 1.0);
+    tl.fromTo(r + " .tick", { scale: 0, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.3, ease: "back.out(3)" }, t + 1.2);
+    tl.fromTo(r + " .num", { opacity: 1 }, { opacity: 0, duration: 0.2 }, t + 1.0);
+  });
+  tl.to("#h-reel", { opacity: 0, duration: 0.6 }, 66.8);
+  tl.fromTo("#h-boxwrap", { y: 60, opacity: 0 }, { y: 0, opacity: 1, duration: 0.7, ease: "power2.out" }, 67.4);
+  tl.fromTo("#h-lid", { y: -140, rotation: -12 }, { y: 120, rotation: 0, duration: 0.9, ease: "bounce.out" }, 68.4);
+  tl.fromTo("#h-badge", { scale: 0.6, opacity: 0 }, { scale: 1, opacity: 1, duration: 0.5, ease: "back.out(2)" }, 69.3);
+
+  // J 71.42 - 82.66
+  tl.fromTo("#sJ", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 71.42);
+  tl.fromTo("#j-brand", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.6 }, 71.7);
+  tl.fromTo("#j-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power2.inOut" }, 72.0);
+  tl.fromTo("#j-cta", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, 72.3);
+  tl.fromTo("#j-sub", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 73.4);
+  tl.fromTo("#j-contact span", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.25 }, 77.1);
+  tl.fromTo("#j-addr", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 78.2);
+  tl.to("#sJ", { opacity: 0, duration: 1.0 }, 81.6);
+
+  window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1920, height=1080" />
+<title>__TITLE__</title>
+<script src="assets/gsap.min.js"></script>
+<style>
+  /* ===== Micrographics Data brand system (keep) ===== */
+  :root {
+    --navy: #0b2545; --deep: #061a33; --panel: #12325c; --paper: #f3ebdd; --paper2: #e6d9c3;
+    --amber: #e0a526; --amber2: #f2c35e; --light: #d6e2f2; --ink: #1c2633; --muted: #9fb3cf;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--deep); font-family: "Segoe UI", Inter, Arial, sans-serif; color: var(--paper); }
+  #root { position: relative; width: 1920px; height: 1080px; overflow: hidden; }
+  .layer { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  .fill { position: absolute; inset: 0; }
+  .serif { font-family: Georgia, "Times New Roman", serif; }
+  .kicker { font-size: 26px; letter-spacing: 6px; text-transform: uppercase; color: var(--amber); font-weight: 600; }
+  .scene { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  .abs { position: absolute; }
+  .blk { display: block; }
+  .h1 { font-family: Georgia, serif; font-size: 80px; line-height: 1.1; font-weight: 400; margin: 0; }
+  .h2 { font-family: Georgia, serif; font-size: 66px; line-height: 1.15; font-weight: 400; margin: 0; }
+  .body { font-size: 40px; line-height: 1.35; color: var(--light); }
+  .card { padding: 30px 38px; background: var(--panel); border-left: 10px solid var(--amber); font-size: 46px; }
+  .chip { display: inline-block; font-size: 42px; padding: 20px 36px; margin: 0 20px 20px 0; border: 3px solid var(--paper2); border-radius: 60px; }
+  .pill { display: inline-block; font-size: 46px; padding: 24px 42px; background: var(--amber); color: var(--deep); font-weight: 700; border-radius: 8px; }
+  .rule { height: 8px; background: var(--amber); transform-origin: 0 50%; }
+
+  #bg { background: radial-gradient(1200px 800px at 75% 30%, #173d6b 0%, var(--navy) 45%, var(--deep) 100%); }
+  #grain { opacity: .07; background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' seed='7'/></filter><rect width='240' height='240' filter='url(%23n)'/></svg>"); }
+  #strip { position: absolute; left: 0; top: 968px; width: 3840px; height: 64px; background: #0a0f17; opacity: .55; }
+  #strip .perf { position: absolute; top: 8px; width: 3840px; height: 10px; background: repeating-linear-gradient(90deg, transparent 0 18px, #3a3f48 18px 32px); }
+  #strip .perf.b { top: 46px; }
+  #strip .frames { position: absolute; top: 22px; width: 3840px; height: 20px; background: repeating-linear-gradient(90deg, #2a2116 0 150px, #0a0f17 150px 160px); opacity: .9; }
+  #brand { left: 90px; top: 1040px; font-size: 20px; letter-spacing: 4px; color: var(--muted); font-weight: 600; }
+  #progress { left: 0; top: 1074px; width: 1920px; height: 6px; background: var(--amber); transform-origin: 0 50%; opacity: .8; }
+
+  #j-fill { background: radial-gradient(1000px 700px at 50% 40%, #12325c 0%, var(--navy) 50%, var(--deep) 100%); }
+  #j-wrap { left: 160px; top: 200px; width: 1600px; text-align: center; }
+  #j-brand { font-size: 30px; letter-spacing: 10px; color: var(--muted); font-weight: 600; }
+  #j-rule { width: 260px; height: 8px; background: var(--amber); margin: 34px auto; transform-origin: 50% 50%; }
+  #j-cta { font-size: 112px; margin: 0; }
+  #j-sub { font-size: 40px; color: var(--light); margin-top: 26px; }
+  #j-contact { font-size: 40px; margin-top: 60px; color: var(--paper); }
+  #j-contact span { display: inline-block; margin: 0 26px; }
+  #j-addr { font-size: 28px; color: var(--muted); margin-top: 40px; }
+
+  /* ===== Per-video scene styles (write below) ===== */
+  /* SCENE-STYLES */
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-width="1920" data-height="1080" data-duration="__TOTAL__">
+
+  <div id="base" class="clip layer" data-start="0" data-duration="__TOTAL__" data-track-index="0">
+    <div id="bg" class="fill"></div>
+    <div id="grain" class="fill"></div>
+    <div id="strip"><div class="perf"></div><div class="frames"></div><div class="perf b"></div></div>
+    <div id="brand" class="abs">MICROGRAPHICS DATA &nbsp;·&nbsp; SINGAPORE &nbsp;·&nbsp; SINCE 1989</div>
+    <div id="progress" class="abs"></div>
+  </div>
+
+  <!-- SCENES: one <section class="clip scene" data-start data-duration data-track-index="1"> per scene, ending by __END_START__ -->
+
+  <section id="sJ" class="clip scene" data-start="__END_START__" data-duration="__END_DUR__" data-track-index="2">
+    <div id="j-fill" class="fill"></div>
+    <div id="j-wrap" class="abs">
+      <div id="j-brand">MICROGRAPHICS DATA</div>
+      <div id="j-rule" class="blk"></div>
+      <h2 id="j-cta" class="serif">Request a Quote</h2>
+      <div id="j-sub">__CTA_SUB__</div>
+      <div id="j-contact"><span>www.micrographicsdata.com</span><span>+65 6472 7255</span><span>sales@micrographicsdata.com</span></div>
+      <div id="j-addr">115A Commonwealth Drive #02-16, Singapore 149596</div>
+    </div>
+  </section>
+
+  <audio id="mix" src="assets/mix.wav" data-start="0" data-duration="__TOTAL__" data-track-index="10" data-volume="1"></audio>
+</div>
+
+<script>
+  window.__timelines = window.__timelines || {};
+  const T = __TOTAL__, END = __END_START__;
+  const tl = gsap.timeline({ paused: true });
+  function scene(id, a, b, fin = 0.5, fout = 0.45) {
+    tl.fromTo(id, { opacity: 0 }, { opacity: 1, duration: fin, ease: "power1.out" }, a);
+    tl.to(id, { opacity: 0, duration: fout, ease: "power1.in" }, b - fout);
+  }
+  tl.fromTo("#strip", { x: 0 }, { x: -1920, duration: T, ease: "none" }, 0);
+  tl.fromTo("#progress", { scaleX: 0 }, { scaleX: 1, duration: T, ease: "none" }, 0);
+  tl.fromTo("#grain", { x: 0, y: 0 }, { x: -40, y: -30, duration: T, ease: "none" }, 0);
+
+  // SCENE-TWEENS: scene("#sX", start, end); then element tweens at global times keyed to the narration (timing.json)
+
+  tl.fromTo("#sJ", { opacity: 0 }, { opacity: 1, duration: 0.6 }, END);
+  tl.fromTo("#j-brand", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.6 }, END + 0.3);
+  tl.fromTo("#j-rule", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power2.inOut" }, END + 0.6);
+  tl.fromTo("#j-cta", { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8, ease: "power3.out" }, END + 0.9);
+  tl.fromTo("#j-sub", { opacity: 0 }, { opacity: 1, duration: 0.6 }, END + 2.0);
+  tl.fromTo("#j-contact span", { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.5, stagger: 0.25 }, END + 3.2);
+  tl.fromTo("#j-addr", { opacity: 0 }, { opacity: 1, duration: 0.6 }, END + 4.2);
+  tl.to("#sJ", { opacity: 0, duration: 1.0 }, T - 1.0);
+  window.__timelines["main"] = tl;
+</script>
+</body>
+</html>

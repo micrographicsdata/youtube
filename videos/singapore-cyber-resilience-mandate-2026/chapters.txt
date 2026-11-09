@@ -1,8 +1,5 @@
-0:00 Introduction
-0:08 The short answer
-0:29 What the framework must cover
-0:52 Key deadlines
-1:04 Why recovery is the common gap
-1:27 Building a recovery layer your board can sign off
-1:45 Common questions
-2:10 Next steps
+0:00 The new board duty
+0:28 Key deadlines
+0:41 The recovery gap
+0:52 Microfilm as the recovery layer
+1:09 Request a quote
