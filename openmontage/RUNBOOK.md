@@ -61,12 +61,29 @@ Never include "Latest Awarded Projects" unless it is the only pending item (and 
     (Asia/Singapore), stagger further videos by 15 minutes, draft false, autoPublish true.
 11. State: new/pending → `state <article> status=scheduled-public om_status=scheduled`; redo → `state <article> om_status=scheduled`.
     Step A next run records the link and sets `om_status=done`.
-12. Redo only: append `| <date> | <title> | <slideshow_url> |` to `openmontage/UNLIST.md` (owner unlists the old video in YouTube Studio).
+12. Redo only: append `| <date> | <title> | <slideshow_url> | |` to `openmontage/UNLIST.md` (step G unlists it).
 
-**E.** Commit + push `state/videos.json` and `openmontage/UNLIST.md`.
+**E.** Do step G below, then commit + push `state/videos.json` and `openmontage/UNLIST.md`. Order per run: 0, A, B, C, D, G, E, F.
+
+**G. Captions and unlisting in YouTube Studio (do this yourself; never hand it to Kelvin).** Owner standing instruction, 9 Nov 2026:
+captions and unlisting are part of every run. Use **Claude in Chrome** (`mcp__claude-in-chrome__*`, Kelvin's Chrome is signed in to the
+Micrographics Data channel `UCyHSOix7_kCIH4gk0Esm50Q`). Do not use the built-in browser pane: it is signed in to a different Google account.
+Wait until this run's Metricool posts show PUBLISHED (re-check `getScheduledPosts` every few minutes, up to ~20 minutes) so you have their
+`publicUrl`; anything still pending is handled by step A + G of the next run. Covers every video with a link and `captions` not `done`.
+1. **Captions.** Copy the video's srt (`-narrated.en.srt` for redos, `.en.srt` for new) into `C:\Users\User\OpenMontage\projects\_captions\`
+   (Chrome uploads only accept files under the OpenMontage folder). Open `https://studio.youtube.com/video/<id>/translations`.
+   - If it asks for a video language: untick "Make this the default for my channel", pick **English (United Kingdom)**, Confirm, reload.
+   - Click **Edit subtitles** (not "Upload manual": its hidden input leaves YouTube's auto-transcript as the draft). In the editor, ⋮ menu →
+     **Upload file** → "With timing" dialog stays open → `file_upload` the srt to the dialog's file-input ref.
+   - Check the first cue matches the srt's first line (not YouTube's auto text such as "[music]" or misspelt "microraphixdata"). Then **Publish**.
+   - `state <article> captions=done`.
+2. **Unlist (redos only).** Only after the narrated replacement shows **Public** in Studio content. Open
+   `https://studio.youtube.com/video/<old slideshow id>/edit` → Visibility → **Unlisted** → Done → **Save** ("Changes saved").
+   Fill the UNLIST.md row's Done column with `Unlisted <date>`; `state <article> unlisted=done`.
+3. If Chrome is not connected or Studio is signed out, skip G, say so in the final message, and leave it for the next run (never ask Kelvin to do it).
 
 **F. Final message to Kelvin (under 150 words):** videos published (title, visibility, time, kind new/redo), links recorded from earlier runs,
-old slideshow links to unlist, failures, counts left (pending / redo). Captions (`*-narrated.en.srt` / `.en.srt`) go up manually in YouTube Studio.
+captions published and old slideshows unlisted by step G, failures, counts left (pending / redo). Do not ask Kelvin to upload captions or unlist.
 
 If Shopify or Metricool is unavailable, or a render keeps failing after two fixes, say so plainly and stop rather than guessing.
 Never fall back to the old silent slideshow script (`tools/make_video.py` is retired).

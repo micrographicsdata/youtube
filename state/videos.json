@@ -63,7 +63,9 @@
       "slideshow_url": "https://www.youtube.com/watch?v=Aozq6UJZreA",
       "om_status": "done",
       "om_metricool_id": "421289685",
-      "om_video_url": "https://www.youtube.com/watch?v=lTyGnS4138M"
+      "om_video_url": "https://www.youtube.com/watch?v=lTyGnS4138M",
+      "captions": "done",
+      "unlisted": "done"
     },
     {
       "status": "done",
@@ -232,7 +234,8 @@
       "video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA",
       "note": "OpenMontage narrated test, uploaded private via Metricool 2026-11-09 01:27 SGT; switch to public in YouTube Studio when approved",
       "om_status": "done",
-      "om_video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA"
+      "om_video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA",
+      "captions": "done"
     },
     {
       "status": "pending",
