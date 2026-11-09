@@ -77,7 +77,7 @@ def fail(msg):
 def cmd_worklist():
     posts = load_state()["posts"]
     never = sorted([p for p in posts if p["status"] == "pending"], key=lambda p: (p.get("tier", 9), p["published"]))
-    redo = sorted([p for p in posts if p["status"] in REDO_STATUSES and p.get("om_status") != "done"],
+    redo = sorted([p for p in posts if p["status"] in REDO_STATUSES and p.get("om_status") not in ("done", "scheduled")],
                   key=lambda p: p["published"])
     tier0 = [p for p in never if p.get("tier") == 0]
     rest = [p for p in never if p.get("tier") != 0]
