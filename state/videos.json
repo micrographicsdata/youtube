@@ -226,13 +226,13 @@
       "video_url": null
     },
     {
-      "status": "test-uploaded-private",
+      "status": "done",
       "blog": "heritage-cultural-archiving",
       "article": "nhb-heritage-grants-digitisation-guide",
       "published": "2026-09-07",
       "tier": 3,
       "video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA",
-      "note": "OpenMontage narrated test, uploaded private via Metricool 2026-11-09 01:27 SGT; switch to public in YouTube Studio when approved",
+      "note": "OpenMontage narrated pilot; public with captions since 2026-11-09",
       "om_status": "done",
       "om_video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA",
       "captions": "done"
