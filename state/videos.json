@@ -61,8 +61,9 @@
       "tier": 1,
       "video_url": "https://www.youtube.com/watch?v=Aozq6UJZreA",
       "slideshow_url": "https://www.youtube.com/watch?v=Aozq6UJZreA",
-      "om_status": "scheduled",
-      "om_metricool_id": "421289685"
+      "om_status": "done",
+      "om_metricool_id": "421289685",
+      "om_video_url": "https://www.youtube.com/watch?v=lTyGnS4138M"
     },
     {
       "status": "done",
