@@ -1,5 +1,5 @@
 {
-  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED.",
+  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED. OpenMontage fields (from 9 Nov 2026, owner policy: no more silent slideshows): om_status = done when a narrated OpenMontage version is published; om_video_url = its YouTube link; slideshow_url = the old silent slideshow link the owner should unlist; om_unlisted = yes once the owner confirms. Any post with status done/test-uploaded-private/scheduled-public and no om_status=done is a slideshow still to be redone.",
   "posts": [
     {
       "status": "done",
@@ -7,7 +7,8 @@
       "article": "ecn2-film-lab-cost-pressures-2026",
       "published": "2026-11-02",
       "tier": 0,
-      "video_url": "https://www.youtube.com/watch?v=N45ifuTZyoM"
+      "video_url": "https://www.youtube.com/watch?v=N45ifuTZyoM",
+      "slideshow_url": "https://www.youtube.com/watch?v=N45ifuTZyoM"
     },
     {
       "status": "done",
@@ -15,7 +16,8 @@
       "article": "how-long-to-keep-employee-records-singapore",
       "published": "2026-10-26",
       "tier": 0,
-      "video_url": "https://www.youtube.com/watch?v=8x7_dIW1jIE"
+      "video_url": "https://www.youtube.com/watch?v=8x7_dIW1jIE",
+      "slideshow_url": "https://www.youtube.com/watch?v=8x7_dIW1jIE"
     },
     {
       "status": "done",
@@ -23,7 +25,8 @@
       "article": "cyber-insurance-offline-backups-microfilm",
       "published": "2026-10-26",
       "tier": 0,
-      "video_url": "https://www.youtube.com/watch?v=sTiASZgzXuk"
+      "video_url": "https://www.youtube.com/watch?v=sTiASZgzXuk",
+      "slideshow_url": "https://www.youtube.com/watch?v=sTiASZgzXuk"
     },
     {
       "status": "done",
@@ -31,7 +34,8 @@
       "article": "pdpa-cross-border-data-transfer-scanning",
       "published": "2026-10-26",
       "tier": 0,
-      "video_url": "https://www.youtube.com/watch?v=6AzEUFfmsVc"
+      "video_url": "https://www.youtube.com/watch?v=6AzEUFfmsVc",
+      "slideshow_url": "https://www.youtube.com/watch?v=6AzEUFfmsVc"
     },
     {
       "status": "test-uploaded-private",
@@ -55,7 +59,10 @@
       "article": "singapore-cyber-resilience-mandate-2026",
       "published": "2026-09-07",
       "tier": 1,
-      "video_url": "https://www.youtube.com/watch?v=Aozq6UJZreA"
+      "video_url": "https://www.youtube.com/watch?v=Aozq6UJZreA",
+      "slideshow_url": "https://www.youtube.com/watch?v=Aozq6UJZreA",
+      "om_status": "scheduled",
+      "om_metricool_id": "421289685"
     },
     {
       "status": "done",
@@ -63,7 +70,8 @@
       "article": "gst-invoicenow-paper-invoice-archiving",
       "published": "2026-09-29",
       "tier": 1,
-      "video_url": "https://www.youtube.com/watch?v=bFMxtFLp7qE"
+      "video_url": "https://www.youtube.com/watch?v=bFMxtFLp7qE",
+      "slideshow_url": "https://www.youtube.com/watch?v=bFMxtFLp7qE"
     },
     {
       "status": "done",
@@ -71,7 +79,8 @@
       "article": "edge-grant-document-scanning-singapore-2026",
       "published": "2026-09-14",
       "tier": 1,
-      "video_url": "https://www.youtube.com/watch?v=gIge6tP0sVY"
+      "video_url": "https://www.youtube.com/watch?v=gIge6tP0sVY",
+      "slideshow_url": "https://www.youtube.com/watch?v=gIge6tP0sVY"
     },
     {
       "status": "done",
@@ -79,7 +88,8 @@
       "article": "health-information-act-2026-singapore",
       "published": "2026-09-14",
       "tier": 1,
-      "video_url": "https://www.youtube.com/watch?v=n_daj0EDN_U"
+      "video_url": "https://www.youtube.com/watch?v=n_daj0EDN_U",
+      "slideshow_url": "https://www.youtube.com/watch?v=n_daj0EDN_U"
     },
     {
       "status": "test-uploaded-private",
@@ -111,7 +121,8 @@
       "article": "archival-microfilm-le500-rating",
       "published": "2026-10-12",
       "tier": 2,
-      "video_url": "https://www.youtube.com/watch?v=Ew6iRlC4hA4"
+      "video_url": "https://www.youtube.com/watch?v=Ew6iRlC4hA4",
+      "slideshow_url": "https://www.youtube.com/watch?v=Ew6iRlC4hA4"
     },
     {
       "status": "done",
@@ -119,7 +130,8 @@
       "article": "vinegar-syndrome-acetate-microfilm-risk",
       "published": "2026-10-10",
       "tier": 2,
-      "video_url": "https://www.youtube.com/watch?v=P7CDZH3q2Js"
+      "video_url": "https://www.youtube.com/watch?v=P7CDZH3q2Js",
+      "slideshow_url": "https://www.youtube.com/watch?v=P7CDZH3q2Js"
     },
     {
       "status": "skipped",
@@ -136,7 +148,8 @@
       "article": "consumer-vs-archival-microfilm-scanners",
       "published": "2026-10-12",
       "tier": 2,
-      "video_url": "https://www.youtube.com/watch?v=VWNH5VsHUyQ"
+      "video_url": "https://www.youtube.com/watch?v=VWNH5VsHUyQ",
+      "slideshow_url": "https://www.youtube.com/watch?v=VWNH5VsHUyQ"
     },
     {
       "status": "done",
@@ -144,7 +157,8 @@
       "article": "microfilm-national-archives-preservation",
       "published": "2026-09-18",
       "tier": 2,
-      "video_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4"
+      "video_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4",
+      "slideshow_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4"
     },
     {
       "status": "scheduled-public",
@@ -215,7 +229,9 @@
       "published": "2026-09-07",
       "tier": 3,
       "video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA",
-      "note": "OpenMontage narrated test, uploaded private via Metricool 2026-11-09 01:27 SGT; switch to public in YouTube Studio when approved"
+      "note": "OpenMontage narrated test, uploaded private via Metricool 2026-11-09 01:27 SGT; switch to public in YouTube Studio when approved",
+      "om_status": "done",
+      "om_video_url": "https://www.youtube.com/watch?v=U74CtxbuiSA"
     },
     {
       "status": "pending",

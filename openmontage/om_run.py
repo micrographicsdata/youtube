@@ -11,6 +11,7 @@ Commands (in order, per video):
   inject  <project_id>         rebuild hyperframes/index.html from brand template + hyperframes/scenes.json
   render  <project_id>         lint + snapshots + HyperFrames render + verification + compose checkpoint
   package <project_id>         compress MP4, write SRT/chapters into the youtube repo folder
+  add     <article> <blog> <YYYY-MM-DD>  queue a newly published Shopify article (tier 0)
   state   <article> key=value  update one post in state/videos.json (e.g. om_status=done om_video_url=...)
 
 All gates are pre-authorised by the owner (approval_policy decision logged per project, 9 Nov 2026).
@@ -411,11 +412,22 @@ def cmd_package(pid):
     if len(ch) >= 2 and timing["total"] - ch[-1][0] < 10:
         ch.pop()
     lines = [f"{int(t // 60)}:{int(t % 60):02d} {lab}" for t, lab in ch]
-    (D / "chapters.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (D / "chapters-narrated.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
     credit = (P / "assets" / "music" / "credit.txt").read_text(encoding="utf-8")
     print(json.dumps({"video": str(out), "mb": round(out.stat().st_size / 1e6, 1), "raw_url":
                       f"https://raw.githubusercontent.com/micrographicsdata/youtube/main/videos/{art}/{out.name}",
                       "chapters": lines, "music_credit": credit, "metadata_path": str(D / "metadata.md")}, indent=1))
+
+
+# ---------------------------------------------------------------- add
+def cmd_add(article, blog, published):
+    d = load_state()
+    if any(p["article"] == article for p in d["posts"]):
+        print("SKIP add: already in state:", article)
+        return
+    d["posts"].append({"status": "pending", "blog": blog, "article": article, "published": published, "tier": 0, "video_url": None})
+    save_state(d)
+    print("OK add:", article)
 
 
 # ---------------------------------------------------------------- state
@@ -437,4 +449,4 @@ if __name__ == "__main__":
         sys.exit(0)
     c, args = sys.argv[1], sys.argv[2:]
     {"worklist": cmd_worklist, "stages": cmd_stages, "audio": cmd_audio, "edit": cmd_edit, "inject": cmd_inject, "render": cmd_render,
-     "package": cmd_package, "state": cmd_state}[c](*args)
+     "package": cmd_package, "add": cmd_add, "state": cmd_state}[c](*args)

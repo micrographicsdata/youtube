@@ -1,3 +1,5 @@
+> **Retired 9 Nov 2026.** Silent slideshows are no longer made. Videos are now built locally with OpenMontage and published as public: follow [openmontage/RUNBOOK.md](openmontage/RUNBOOK.md). The steps below are kept for history only.
+
 # Blog-to-YouTube pipeline runbook
 
 1. Find work: read `state/videos.json`. Also query Shopify for blog articles published after the newest `published` date that are not in the file (published only, never `auto-draft` unpublished drafts); add them as `pending` with the next tier.
