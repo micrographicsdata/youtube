@@ -1,0 +1,39 @@
+1
+00:00:00,600 --> 00:00:04,090
+A book scanner's brochure resolution tells you very little.
+
+2
+00:00:04,440 --> 00:00:11,550
+Archives that follow FADGI judge scanners by measured image quality at a defined star level, not by a single dpi figure.
+
+3
+00:00:12,050 --> 00:00:23,140
+FADGI, the US Federal Agencies Digital Guidelines Initiative, publishes technical guidelines for digitising cultural heritage materials.
+
+4
+00:00:23,490 --> 00:00:30,020
+Its third edition was published on 10 May 2023, after editions in 2010 and 2016.
+
+5
+00:00:30,520 --> 00:00:35,750
+The four star levels grade the images a system produces, not the scanner alone.
+
+6
+00:00:36,100 --> 00:00:41,860
+Several criteria are measured, and file format and colour space are set for each level.
+
+7
+00:00:42,360 --> 00:00:54,110
+Many institutions also use ISO/TS 19264-1, the international specification for reflective originals such as books, documents and prints.
+
+8
+00:00:54,610 --> 00:01:07,560
+Before you buy, ask which star level your project needs, ask for measured results on material like yours, and check calibration, cradle protection for fragile bindings, and operator training.
+
+9
+00:01:08,060 --> 00:01:13,780
+Micrographics Data supplies overhead book scanners and book scanning services from Singapore.
+
+10
+00:01:14,130 --> 00:01:16,900
+Request a quote at micrographicsdata.com.

@@ -269,7 +269,8 @@
       "article": "kodak-verita-200d-ecn2-processor-2026",
       "published": "2026-09-14",
       "tier": 3,
-      "video_url": null
+      "video_url": null,
+      "om_status": "rendered"
     },
     {
       "status": "pending",
@@ -285,7 +286,8 @@
       "article": "acra-company-records-inspection-rules-2026",
       "published": "2026-11-09",
       "tier": 0,
-      "video_url": null
+      "video_url": null,
+      "om_status": "rendered"
     },
     {
       "status": "pending",
@@ -293,7 +295,8 @@
       "article": "fadgi-star-ratings-book-scanner-buying",
       "published": "2026-11-09",
       "tier": 0,
-      "video_url": null
+      "video_url": null,
+      "om_status": "rendered"
     },
     {
       "status": "pending",
@@ -301,7 +304,8 @@
       "article": "microfilm-generations-master-duplicate-service-copy",
       "published": "2026-11-09",
       "tier": 0,
-      "video_url": null
+      "video_url": null,
+      "om_status": "rendered"
     },
     {
       "status": "pending",
@@ -309,7 +313,8 @@
       "article": "lev-thorough-examination-extraction-bench",
       "published": "2026-11-09",
       "tier": 0,
-      "video_url": null
+      "video_url": null,
+      "om_status": "rendered"
     }
   ]
 }

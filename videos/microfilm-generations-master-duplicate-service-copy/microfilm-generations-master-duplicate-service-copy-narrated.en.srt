@@ -1,0 +1,51 @@
+1
+00:00:00,600 --> 00:00:05,390
+An archive that keeps only one microfilm copy has a single point of failure.
+
+2
+00:00:05,740 --> 00:00:09,830
+Established practice is three generations, each with its own job.
+
+3
+00:00:10,330 --> 00:00:12,420
+The camera master is never handled.
+
+4
+00:00:12,770 --> 00:00:15,460
+The print master is used only to make copies.
+
+5
+00:00:15,810 --> 00:00:19,580
+Service copies are the rolls that go onto readers and scanners.
+
+6
+00:00:20,080 --> 00:00:30,070
+The National Archives of Australia advises keeping the preservation master in a different location, preferably off site, in archival-quality enclosures.
+
+7
+00:00:30,420 --> 00:00:32,650
+Masters stay cool, dry and stable.
+
+8
+00:00:33,150 --> 00:00:37,060
+Only silver-gelatin film is recognised for preservation masters.
+
+9
+00:00:37,410 --> 00:00:42,060
+Diazo and vesicular films are normally used for short-life reference copies.
+
+10
+00:00:42,560 --> 00:00:48,080
+In a hybrid programme, the roll from a digital archive writer is the camera master.
+
+11
+00:00:48,430 --> 00:00:56,680
+When digitising, feed the scanner a duplicate, never the master, and keep digital files and film masters in separate places.
+
+12
+00:00:57,180 --> 00:01:03,770
+Micrographics Data supplies archival microfilm, chemistry and equipment for every generation.
+
+13
+00:01:04,120 --> 00:01:07,310
+Request a quote at micrographicsdata.com.
