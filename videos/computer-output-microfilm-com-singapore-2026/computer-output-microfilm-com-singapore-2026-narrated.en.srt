@@ -1,0 +1,43 @@
+1
+00:00:00,600 --> 00:00:12,630
+A computer output microfilm, or COM, system writes digital files such as TIFF, PDF and JPEG directly onto archival 16 or 35 millimetre microfilm.
+
+2
+00:00:12,980 --> 00:00:14,640
+No paper in between.
+
+3
+00:00:15,140 --> 00:00:17,800
+It is the reverse of microfilm scanning.
+
+4
+00:00:18,150 --> 00:00:20,740
+Scanning turns film into digital files.
+
+5
+00:00:21,090 --> 00:00:27,460
+COM turns digital files into film, giving scanned and born-digital collections an analogue copy.
+
+6
+00:00:27,960 --> 00:00:37,800
+A COM line has three parts: an archive writer such as the MD AW3, a processor such as the MD PRO3, and LE-500 film with matched chemistry.
+
+7
+00:00:38,300 --> 00:00:50,580
+The output must meet four standards: ISO 18901 for film stability, ISO 18917 for processing, ISO 18911 for storage, and ISO 6199 for image quality.
+
+8
+00:00:51,080 --> 00:00:53,050
+COM suits permanent records.
+
+9
+00:00:53,400 --> 00:01:01,910
+Film is offline by nature, so ransomware cannot alter it, and it is read with a lens and light, with no format migration.
+
+10
+00:01:02,410 --> 00:01:08,310
+Micrographics Data makes the MD AW3 and supplies complete COM lines from Singapore.
+
+11
+00:01:08,660 --> 00:01:11,860
+Request a quote at micrographicsdata.com.

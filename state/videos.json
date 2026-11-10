@@ -1,5 +1,5 @@
 {
-  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED. OpenMontage fields (from 9 Nov 2026, owner policy: no more silent slideshows): om_status = done when a narrated OpenMontage version is published; om_video_url = its YouTube link; slideshow_url = the old silent slideshow link the owner should unlist; om_unlisted = yes once the owner confirms. Any post with status done/test-uploaded-private/scheduled-public and no om_status=done is a slideshow still to be redone.",
+  "note": "status: covered = video already on channel; pending = needs video; test-uploaded-private = sample uploaded as Private for review; done = uploaded; skipped = deliberately not made. Update video_url when uploaded. scheduled-public = scheduled in Metricool with public visibility; record video_url once PUBLISHED. OpenMontage fields (from 9 Nov 2026, owner policy: no more silent slideshows): om_status = done when a narrated OpenMontage version is published; om_video_url = its YouTube link; slideshow_url = the old silent slideshow link the owner should unlist; om_unlisted = yes once the owner confirms. Any post with status done/test-uploaded-private/scheduled-public and no om_status=done is a slideshow still to be redone. om_status = rendered: narrated video built and pushed to the repo but not yet published (Metricool publish blocked by the session's permission settings on 2026-11-10); next run should publish it without rebuilding.",
   "posts": [
     {
       "status": "done",
@@ -83,7 +83,8 @@
       "published": "2026-09-14",
       "tier": 1,
       "video_url": "https://www.youtube.com/watch?v=gIge6tP0sVY",
-      "slideshow_url": "https://www.youtube.com/watch?v=gIge6tP0sVY"
+      "slideshow_url": "https://www.youtube.com/watch?v=gIge6tP0sVY",
+      "om_status": "rendered"
     },
     {
       "status": "done",
@@ -92,7 +93,8 @@
       "published": "2026-09-14",
       "tier": 1,
       "video_url": "https://www.youtube.com/watch?v=n_daj0EDN_U",
-      "slideshow_url": "https://www.youtube.com/watch?v=n_daj0EDN_U"
+      "slideshow_url": "https://www.youtube.com/watch?v=n_daj0EDN_U",
+      "om_status": "rendered"
     },
     {
       "status": "test-uploaded-private",
@@ -171,7 +173,8 @@
       "tier": 2,
       "video_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY",
       "scheduled_for": "2026-11-06T09:10 Asia/Singapore",
-      "slideshow_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY"
+      "slideshow_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY",
+      "om_status": "rendered"
     },
     {
       "status": "skipped",

@@ -1,0 +1,43 @@
+1
+00:00:00,600 --> 00:00:04,870
+Singapore's Health Information Act was passed in January 2026.
+
+2
+00:00:05,220 --> 00:00:11,360
+It sets duties for new patient records, but not for the paper files clinics already hold.
+
+3
+00:00:11,860 --> 00:00:20,360
+It applies to healthcare licensees, retail pharmacies and approved users of the National Electronic Health Record.
+
+4
+00:00:20,710 --> 00:00:27,790
+The Ministry of Health lists phased deadlines in September 2027, September 2028 and March 2030.
+
+5
+00:00:28,290 --> 00:00:30,630
+The Act covers records going forward.
+
+6
+00:00:30,980 --> 00:00:39,060
+It does not require historical records or past consultation notes to be uploaded, so decades of paper case notes sit outside it.
+
+7
+00:00:39,560 --> 00:00:47,690
+Those files are still governed by the PDPA's retention and protection obligations, and by Ministry of Health record-keeping conditions.
+
+8
+00:00:48,190 --> 00:00:53,120
+Scanning turns legacy files into a searchable, access-controlled archive.
+
+9
+00:00:53,470 --> 00:01:01,040
+For the records kept longest, archival microfilm to ISO 18901 adds a copy that no software change can lock away.
+
+10
+00:01:01,540 --> 00:01:06,610
+Micrographics Data scans and indexes clinical and pharmacy records in Singapore.
+
+11
+00:01:06,960 --> 00:01:09,810
+Request a quote at micrographicsdata.com.
