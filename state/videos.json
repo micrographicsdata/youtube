@@ -164,13 +164,14 @@
       "slideshow_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "microfilm",
       "article": "computer-output-microfilm-com-singapore-2026",
       "published": "2026-09-14",
       "tier": 2,
-      "video_url": null,
-      "scheduled_for": "2026-11-06T09:10 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY",
+      "scheduled_for": "2026-11-06T09:10 Asia/Singapore",
+      "slideshow_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY"
     },
     {
       "status": "skipped",
@@ -209,13 +210,14 @@
       "note": "Head-to-head comparison naming a third-party scanner brand; Kelvin to confirm whether it counts as a competitor before any video."
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "heritage-cultural-archiving",
       "article": "heritage-archive-digitisation-singapore",
       "published": "2026-10-13",
       "tier": 3,
-      "video_url": null,
-      "scheduled_for": "2026-11-06T09:25 Asia/Singapore"
+      "video_url": "https://www.youtube.com/watch?v=-ObfFxzikCQ",
+      "scheduled_for": "2026-11-06T09:25 Asia/Singapore",
+      "slideshow_url": "https://www.youtube.com/watch?v=-ObfFxzikCQ"
     },
     {
       "status": "pending",
@@ -275,6 +277,38 @@
       "article": "research-agency-lab-notebook-digitisation",
       "published": "2026-09-25",
       "tier": 3,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "acra-company-records-inspection-rules-2026",
+      "published": "2026-11-09",
+      "tier": 0,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "book-document-scanners",
+      "article": "fadgi-star-ratings-book-scanner-buying",
+      "published": "2026-11-09",
+      "tier": 0,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "microfilm-generations-master-duplicate-service-copy",
+      "published": "2026-11-09",
+      "tier": 0,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "airbench-dust-fume-extraction",
+      "article": "lev-thorough-examination-extraction-bench",
+      "published": "2026-11-09",
+      "tier": 0,
       "video_url": null
     }
   ]
