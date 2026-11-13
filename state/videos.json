@@ -292,26 +292,30 @@
       "video_url": null
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "micrographics-data-blogposts",
       "article": "acra-company-records-inspection-rules-2026",
       "published": "2026-11-09",
       "tier": 0,
-      "video_url": null,
-      "om_status": "scheduled",
+      "video_url": "https://www.youtube.com/watch?v=QAvX98MNEtg",
+      "om_status": "done",
       "om_metricool_id": "426420293",
-      "scheduled_for": "2026-11-13T09:06 Asia/Singapore"
+      "scheduled_for": "2026-11-13T09:06 Asia/Singapore",
+      "om_video_url": "https://www.youtube.com/watch?v=QAvX98MNEtg",
+      "captions": "done"
     },
     {
-      "status": "scheduled-public",
+      "status": "done",
       "blog": "book-document-scanners",
       "article": "fadgi-star-ratings-book-scanner-buying",
       "published": "2026-11-09",
       "tier": 0,
-      "video_url": null,
-      "om_status": "scheduled",
+      "video_url": "https://www.youtube.com/watch?v=g4Ao1Sc_rII",
+      "om_status": "done",
       "om_metricool_id": "426420561",
-      "scheduled_for": "2026-11-13T09:21 Asia/Singapore"
+      "scheduled_for": "2026-11-13T09:21 Asia/Singapore",
+      "om_video_url": "https://www.youtube.com/watch?v=g4Ao1Sc_rII",
+      "captions": "done"
     },
     {
       "status": "scheduled-public",
