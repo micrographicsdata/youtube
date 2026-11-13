@@ -84,7 +84,9 @@
       "tier": 1,
       "video_url": "https://www.youtube.com/watch?v=gIge6tP0sVY",
       "slideshow_url": "https://www.youtube.com/watch?v=gIge6tP0sVY",
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426421235",
+      "om_scheduled_for": "2026-11-13T10:21 Asia/Singapore"
     },
     {
       "status": "done",
@@ -94,7 +96,9 @@
       "tier": 1,
       "video_url": "https://www.youtube.com/watch?v=n_daj0EDN_U",
       "slideshow_url": "https://www.youtube.com/watch?v=n_daj0EDN_U",
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426421250",
+      "om_scheduled_for": "2026-11-13T10:36 Asia/Singapore"
     },
     {
       "status": "test-uploaded-private",
@@ -174,7 +178,9 @@
       "video_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY",
       "scheduled_for": "2026-11-06T09:10 Asia/Singapore",
       "slideshow_url": "https://www.youtube.com/watch?v=mxp8fM3l_zY",
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426421304",
+      "om_scheduled_for": "2026-11-13T10:51 Asia/Singapore"
     },
     {
       "status": "skipped",
@@ -267,13 +273,15 @@
       "video_url": null
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "kodak-motion-film-ecn2-processor",
       "article": "kodak-verita-200d-ecn2-processor-2026",
       "published": "2026-09-14",
       "tier": 3,
       "video_url": null,
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426421209",
+      "scheduled_for": "2026-11-13T10:06 Asia/Singapore"
     },
     {
       "status": "pending",
@@ -284,40 +292,48 @@
       "video_url": null
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "micrographics-data-blogposts",
       "article": "acra-company-records-inspection-rules-2026",
       "published": "2026-11-09",
       "tier": 0,
       "video_url": null,
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426420293",
+      "scheduled_for": "2026-11-13T09:06 Asia/Singapore"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "book-document-scanners",
       "article": "fadgi-star-ratings-book-scanner-buying",
       "published": "2026-11-09",
       "tier": 0,
       "video_url": null,
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426420561",
+      "scheduled_for": "2026-11-13T09:21 Asia/Singapore"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "microfilm",
       "article": "microfilm-generations-master-duplicate-service-copy",
       "published": "2026-11-09",
       "tier": 0,
       "video_url": null,
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426420577",
+      "scheduled_for": "2026-11-13T09:36 Asia/Singapore"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "airbench-dust-fume-extraction",
       "article": "lev-thorough-examination-extraction-bench",
       "published": "2026-11-09",
       "tier": 0,
       "video_url": null,
-      "om_status": "rendered"
+      "om_status": "scheduled",
+      "om_metricool_id": "426420592",
+      "scheduled_for": "2026-11-13T09:51 Asia/Singapore"
     }
   ]
 }
