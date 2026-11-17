@@ -75,7 +75,8 @@
       "tier": 1,
       "video_url": "https://www.youtube.com/watch?v=bFMxtFLp7qE",
       "slideshow_url": "https://www.youtube.com/watch?v=bFMxtFLp7qE",
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool post 2026-11-17 pending/failed (account limit); narrated mp4 already in repo, re-post only"
     },
     {
       "status": "done",
@@ -88,7 +89,9 @@
       "om_status": "done",
       "om_metricool_id": "426421235",
       "om_scheduled_for": "2026-11-13T10:21 Asia/Singapore",
-      "om_video_url": "https://www.youtube.com/watch?v=KT60ve_qQeA"
+      "om_video_url": "https://www.youtube.com/watch?v=KT60ve_qQeA",
+      "captions": "done",
+      "unlisted": "done"
     },
     {
       "status": "done",
@@ -101,7 +104,9 @@
       "om_status": "done",
       "om_metricool_id": "426421250",
       "om_scheduled_for": "2026-11-13T10:36 Asia/Singapore",
-      "om_video_url": "https://www.youtube.com/watch?v=jikQqvIz300"
+      "om_video_url": "https://www.youtube.com/watch?v=jikQqvIz300",
+      "captions": "done",
+      "unlisted": "done"
     },
     {
       "status": "test-uploaded-private",
@@ -117,7 +122,9 @@
       "article": "choose-document-scanning-vendor-singapore",
       "published": "2026-10-09",
       "tier": 1,
-      "video_url": "https://www.youtube.com/watch?v=lp8jf39JL20"
+      "video_url": "https://www.youtube.com/watch?v=lp8jf39JL20",
+      "om_status": "rendered",
+      "publish_error": "Metricool post 2026-11-17 pending/failed (account limit); narrated mp4 already in repo, re-post only"
     },
     {
       "status": "test-uploaded-private",
@@ -171,7 +178,8 @@
       "tier": 2,
       "video_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4",
       "slideshow_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4",
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool post 2026-11-17 pending/failed (account limit); narrated mp4 already in repo, re-post only"
     },
     {
       "status": "done",
@@ -185,7 +193,9 @@
       "om_status": "done",
       "om_metricool_id": "426421304",
       "om_scheduled_for": "2026-11-13T10:51 Asia/Singapore",
-      "om_video_url": "https://www.youtube.com/watch?v=7JrHkhsxE08"
+      "om_video_url": "https://www.youtube.com/watch?v=7JrHkhsxE08",
+      "captions": "done",
+      "unlisted": "done"
     },
     {
       "status": "skipped",
@@ -234,13 +244,14 @@
       "slideshow_url": "https://www.youtube.com/watch?v=-ObfFxzikCQ"
     },
     {
-      "status": "scheduled-public",
+      "status": "pending",
       "blog": "heritage-cultural-archiving",
       "article": "preserving-your-history-with-national-heritage-board-cultural-heritage-grants",
       "published": "2026-09-18",
       "tier": 3,
       "video_url": null,
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
     },
     {
       "status": "done",
@@ -288,7 +299,8 @@
       "om_status": "done",
       "om_metricool_id": "426421209",
       "scheduled_for": "2026-11-13T10:06 Asia/Singapore",
-      "om_video_url": "https://www.youtube.com/watch?v=1w9bZTaWmbQ"
+      "om_video_url": "https://www.youtube.com/watch?v=1w9bZTaWmbQ",
+      "captions": "done"
     },
     {
       "status": "pending",
@@ -334,7 +346,8 @@
       "om_status": "done",
       "om_metricool_id": "426420577",
       "scheduled_for": "2026-11-13T09:36 Asia/Singapore",
-      "om_video_url": "https://www.youtube.com/watch?v=K_B0fV_hrew"
+      "om_video_url": "https://www.youtube.com/watch?v=K_B0fV_hrew",
+      "captions": "done"
     },
     {
       "status": "done",
@@ -346,43 +359,48 @@
       "om_status": "done",
       "om_metricool_id": "426420592",
       "scheduled_for": "2026-11-13T09:51 Asia/Singapore",
-      "om_video_url": "https://www.youtube.com/watch?v=tDR5RIAC-cY"
+      "om_video_url": "https://www.youtube.com/watch?v=tDR5RIAC-cY",
+      "captions": "done"
     },
     {
-      "status": "scheduled-public",
+      "status": "pending",
       "blog": "kodak-motion-film-ecn2-processor",
       "article": "ecn2-process-control-strips-guide",
       "published": "2026-11-16",
       "tier": 0,
       "video_url": null,
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
     },
     {
-      "status": "scheduled-public",
+      "status": "pending",
       "blog": "microfilm",
       "article": "inspect-processed-microfilm-density-resolution",
       "published": "2026-11-16",
       "tier": 0,
       "video_url": null,
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
     },
     {
-      "status": "scheduled-public",
+      "status": "pending",
       "blog": "heritage-cultural-archiving",
       "article": "mould-heritage-collections-singapore",
       "published": "2026-11-16",
       "tier": 0,
       "video_url": null,
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
     },
     {
-      "status": "scheduled-public",
+      "status": "pending",
       "blog": "micrographics-data-blogposts",
       "article": "mcst-records-strata-act-review-digitisation",
       "published": "2026-11-16",
       "tier": 0,
       "video_url": null,
-      "om_status": "scheduled"
+      "om_status": "rendered",
+      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
     }
   ]
 }
