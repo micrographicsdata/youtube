@@ -355,12 +355,13 @@
       "om_status": "scheduled"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "microfilm",
       "article": "inspect-processed-microfilm-density-resolution",
       "published": "2026-11-16",
       "tier": 0,
-      "video_url": null
+      "video_url": null,
+      "om_status": "scheduled"
     },
     {
       "status": "pending",
