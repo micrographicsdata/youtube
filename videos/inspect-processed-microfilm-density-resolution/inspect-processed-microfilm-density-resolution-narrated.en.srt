@@ -1,0 +1,51 @@
+1
+00:00:00,600 --> 00:00:12,850
+Before processed microfilm becomes a preservation master, check four things: density, resolution, residual hypo and physical defects.
+
+2
+00:00:13,200 --> 00:00:17,900
+NARA's rule, 36 CFR 1238.14, is a useful benchmark.
+
+3
+00:00:18,400 --> 00:00:23,930
+First, background density, read with a transmission densitometer.
+
+4
+00:00:24,280 --> 00:00:35,250
+NARA recommends ranges by document type, from 1.3 to 1.5 for high-contrast print down to 0.7 to 0.85 for poor-contrast originals.
+
+5
+00:00:35,600 --> 00:00:38,580
+Base plus fog must not exceed 0.10.
+
+6
+00:00:39,080 --> 00:00:40,530
+Second, resolution.
+
+7
+00:00:40,880 --> 00:00:46,530
+Film an ISO 3334 test chart and read the smallest pattern you can resolve.
+
+8
+00:00:46,880 --> 00:00:54,360
+NARA asks for a Quality Index of five at the third generation, so legibility survives duplication.
+
+9
+00:00:54,860 --> 00:00:58,800
+Third, residual hypo, the fixer left after washing.
+
+10
+00:00:59,150 --> 00:01:07,030
+The limit is 0.014 grams per square metre, in line with ISO 18901, checked with a methylene blue test.
+
+11
+00:01:07,530 --> 00:01:17,340
+Finally, inspect every frame on a light box for scratches and bad splices, log defects by roll, and store masters off-site in proper conditions.
+
+12
+00:01:17,840 --> 00:01:26,440
+Micrographics Data supplies film rated LE-500 to ISO 18901, processing chemistry and the Smart MD PRO5 processor.
+
+13
+00:01:26,790 --> 00:01:30,210
+Request a quote at micrographicsdata.com.

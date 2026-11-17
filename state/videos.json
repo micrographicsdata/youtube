@@ -346,12 +346,13 @@
       "om_video_url": "https://www.youtube.com/watch?v=tDR5RIAC-cY"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "kodak-motion-film-ecn2-processor",
       "article": "ecn2-process-control-strips-guide",
       "published": "2026-11-16",
       "tier": 0,
-      "video_url": null
+      "video_url": null,
+      "om_status": "scheduled"
     },
     {
       "status": "pending",
