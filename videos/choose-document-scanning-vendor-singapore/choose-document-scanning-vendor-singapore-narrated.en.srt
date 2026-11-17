@@ -1,0 +1,43 @@
+1
+00:00:00,600 --> 00:00:04,030
+Choosing a document scanning company in Singapore?
+
+2
+00:00:04,380 --> 00:00:11,930
+A wrong choice often shows up months later, as a PDPA gap, a retention mismatch, or an archive with no backup.
+
+3
+00:00:12,280 --> 00:00:13,790
+Here is what to check.
+
+4
+00:00:14,290 --> 00:00:25,300
+First, match the vendor to your formats: office documents with OCR, large-format drawings, bound books and ledgers, or microfilm and microfiche, which need specialised equipment.
+
+5
+00:00:25,800 --> 00:00:30,590
+Ask for written chain-of-custody from collection to return or certified destruction.
+
+6
+00:00:30,940 --> 00:00:38,120
+Check where files are processed and stored, and whether the vendor knows the five-year retention rules for accounting records.
+
+7
+00:00:38,620 --> 00:00:42,270
+For public-sector work, look for GeBIZ registration.
+
+8
+00:00:42,620 --> 00:00:51,600
+On the first call, ask who handles your originals, and what the end deliverable is: indexing, OCR, or a hybrid microfilm backup.
+
+9
+00:00:52,100 --> 00:01:02,760
+Hybrid archiving keeps the digital layer for access and adds microfilm, rated LE-500 to ISO 18901, as an offline copy that ransomware cannot encrypt or alter.
+
+10
+00:01:03,260 --> 00:01:11,380
+Micrographics Data, in Singapore since 1989, assesses volume and condition on site or from samples before quoting.
+
+11
+00:01:11,730 --> 00:01:14,940
+Request a quote at micrographicsdata.com.
