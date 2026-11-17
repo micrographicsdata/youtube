@@ -1,0 +1,47 @@
+1
+00:00:00,600 --> 00:00:06,970
+Singapore's GST InvoiceNow requirement phases in from 1 April 2026 to 1 April 2031.
+
+2
+00:00:07,320 --> 00:00:14,220
+But it only covers invoices issued after you go live, so your paper archive still matters.
+
+3
+00:00:14,720 --> 00:00:22,020
+InvoiceNow is the e-invoicing framework from the Inland Revenue Authority of Singapore, built on the Peppol network.
+
+4
+00:00:22,370 --> 00:00:28,850
+It sends invoice data straight between accounting systems, starting with new voluntary GST registrants.
+
+5
+00:00:29,350 --> 00:00:31,390
+Retention rules do not change.
+
+6
+00:00:31,740 --> 00:00:41,640
+IRAS and ACRA both require accounting records, including invoices, to be kept for at least five years, and many businesses keep seven as a buffer.
+
+7
+00:00:42,140 --> 00:00:43,700
+A hybrid archive helps.
+
+8
+00:00:44,050 --> 00:00:55,370
+Scan the paper backlog, index it by invoice number, vendor and financial year, and tie each record to its retention clock, so any invoice can be found during an audit.
+
+9
+00:00:55,870 --> 00:01:05,810
+Before go-live, audit the backlog by year, scan the years still in retention first, and add retention metadata so expired records can be disposed of.
+
+10
+00:01:06,160 --> 00:01:08,890
+Keeping data too long is a PDPA risk too.
+
+11
+00:01:09,390 --> 00:01:14,460
+Micrographics Data scans and indexes legacy invoice archives in Singapore.
+
+12
+00:01:14,810 --> 00:01:17,890
+Request a quote at micrographicsdata.com.

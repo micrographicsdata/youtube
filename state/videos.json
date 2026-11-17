@@ -169,7 +169,8 @@
       "published": "2026-09-18",
       "tier": 2,
       "video_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4",
-      "slideshow_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4"
+      "slideshow_url": "https://www.youtube.com/watch?v=c2-Q08t2Xq4",
+      "om_status": "scheduled"
     },
     {
       "status": "done",
