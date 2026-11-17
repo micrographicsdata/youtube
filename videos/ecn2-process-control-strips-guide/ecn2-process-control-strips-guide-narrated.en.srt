@@ -1,0 +1,59 @@
+1
+00:00:00,600 --> 00:00:05,030
+An ECN-2 lab proves its process is in tolerance with control strips.
+
+2
+00:00:05,380 --> 00:00:09,750
+Here is how to read them, following Kodak's process control manual.
+
+3
+00:00:10,250 --> 00:00:14,190
+A control strip is pre-exposed film with 21 grey-scale steps.
+
+4
+00:00:14,540 --> 00:00:21,720
+Run one through the processor, as a rule of thumb once an hour, read it on a densitometer, and plot the result.
+
+5
+00:00:22,220 --> 00:00:25,440
+The key readings use Status M densitometry.
+
+6
+00:00:25,790 --> 00:00:31,710
+D-min, step 14 for the toe, step 8 for speed and step 4 for the picture blacks.
+
+7
+00:00:32,060 --> 00:00:35,500
+The gap between steps 4 and 14 shows contrast.
+
+8
+00:00:36,000 --> 00:00:40,540
+Readings are plotted against aim values taken from the reference strip.
+
+9
+00:00:40,890 --> 00:00:43,510
+At the action limit, correct the process.
+
+10
+00:00:43,860 --> 00:00:47,890
+At the control limit, stop processing until you find the cause.
+
+11
+00:00:48,390 --> 00:00:50,690
+Watch trends, not single points.
+
+12
+00:00:51,040 --> 00:00:55,270
+Rising red and green D-min can mean the fixer is exhausted.
+
+13
+00:00:55,620 --> 00:01:02,800
+Store unused strips at minus 18 degrees Celsius or colder, and calibrate the densitometer every day.
+
+14
+00:01:03,300 --> 00:01:10,630
+Micrographics Data makes the ECN-PRO and ECN-PRO3 processors, and the same control-strip discipline applies to both.
+
+15
+00:01:10,980 --> 00:01:13,830
+Request a quote at micrographicsdata.com.
