@@ -232,12 +232,13 @@
       "slideshow_url": "https://www.youtube.com/watch?v=-ObfFxzikCQ"
     },
     {
-      "status": "pending",
+      "status": "scheduled-public",
       "blog": "heritage-cultural-archiving",
       "article": "preserving-your-history-with-national-heritage-board-cultural-heritage-grants",
       "published": "2026-09-18",
       "tier": 3,
-      "video_url": null
+      "video_url": null,
+      "om_status": "scheduled"
     },
     {
       "status": "done",
