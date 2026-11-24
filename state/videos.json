@@ -370,7 +370,7 @@
       "tier": 0,
       "video_url": null,
       "om_status": "rendered",
-      "publish_error": "Metricool ERROR 2026-11-17 and 2026-11-20 (retry post 434987996): account limit reached; narrated mp4 already in repo, re-post only"
+      "publish_error": "Metricool ERROR 2026-11-17 and 2026-11-20: account limit reached. Re-voiced 2026-11-24 to name ECN-PRO PLUS (owner rule 20 Nov); new narrated mp4 in repo, re-post only"
     },
     {
       "status": "pending",
@@ -380,7 +380,7 @@
       "tier": 0,
       "video_url": null,
       "om_status": "rendered",
-      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
+      "publish_error": "Metricool ERROR 2026-11-17 and 2026-11-24 (test post 439663011): account limit reached; narrated mp4 already in repo, re-post only"
     },
     {
       "status": "pending",
@@ -401,6 +401,32 @@
       "video_url": null,
       "om_status": "rendered",
       "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
+    },
+    {
+      "status": "pending",
+      "blog": "book-document-scanners",
+      "article": "book-digitisation-file-formats-tiff-jpeg2000-pdfa",
+      "published": "2026-11-23",
+      "tier": 0,
+      "video_url": null
+    },
+    {
+      "status": "pending",
+      "blog": "microfilm",
+      "article": "16mm-vs-35mm-microfilm-roll-format-guide",
+      "published": "2026-11-23",
+      "tier": 0,
+      "video_url": null,
+      "om_status": "rendered",
+      "publish_error": "Not posted 2026-11-24: Metricool account limit still blocks YouTube posts (test post 439663011 failed); narrated mp4 in repo, re-post only"
+    },
+    {
+      "status": "pending",
+      "blog": "micrographics-data-blogposts",
+      "article": "charity-ipc-records-retention-digitisation-singapore",
+      "published": "2026-11-23",
+      "tier": 0,
+      "video_url": null
     }
   ]
 }

@@ -1,59 +1,59 @@
 1
-00:00:00,600 --> 00:00:05,030
+00:00:00,600 --> 00:00:04,880
 An ECN-2 lab proves its process is in tolerance with control strips.
 
 2
-00:00:05,380 --> 00:00:09,750
+00:00:05,230 --> 00:00:09,450
 Here is how to read them, following Kodak's process control manual.
 
 3
-00:00:10,250 --> 00:00:14,190
+00:00:09,950 --> 00:00:13,980
 A control strip is pre-exposed film with 21 grey-scale steps.
 
 4
-00:00:14,540 --> 00:00:21,720
+00:00:14,330 --> 00:00:21,650
 Run one through the processor, as a rule of thumb once an hour, read it on a densitometer, and plot the result.
 
 5
-00:00:22,220 --> 00:00:25,440
+00:00:22,150 --> 00:00:25,280
 The key readings use Status M densitometry.
 
 6
-00:00:25,790 --> 00:00:31,710
+00:00:25,630 --> 00:00:31,370
 D-min, step 14 for the toe, step 8 for speed and step 4 for the picture blacks.
 
 7
-00:00:32,060 --> 00:00:35,500
+00:00:31,720 --> 00:00:35,070
 The gap between steps 4 and 14 shows contrast.
 
 8
-00:00:36,000 --> 00:00:40,540
+00:00:35,570 --> 00:00:40,030
 Readings are plotted against aim values taken from the reference strip.
 
 9
-00:00:40,890 --> 00:00:43,510
+00:00:40,380 --> 00:00:42,950
 At the action limit, correct the process.
 
 10
-00:00:43,860 --> 00:00:47,890
+00:00:43,300 --> 00:00:47,260
 At the control limit, stop processing until you find the cause.
 
 11
-00:00:48,390 --> 00:00:50,690
+00:00:47,760 --> 00:00:50,000
 Watch trends, not single points.
 
 12
-00:00:51,040 --> 00:00:55,270
+00:00:50,350 --> 00:00:54,470
 Rising red and green D-min can mean the fixer is exhausted.
 
 13
-00:00:55,620 --> 00:01:02,800
+00:00:54,820 --> 00:01:01,810
 Store unused strips at minus 18 degrees Celsius or colder, and calibrate the densitometer every day.
 
 14
-00:01:03,300 --> 00:01:10,630
-Micrographics Data makes the ECN-PRO and ECN-PRO3 processors, and the same control-strip discipline applies to both.
+00:01:02,310 --> 00:01:10,170
+Micrographics Data makes the ECN-PRO PLUS and ECN-PRO3 processors, and the same control-strip discipline applies to both.
 
 15
-00:01:10,980 --> 00:01:13,830
+00:01:10,520 --> 00:01:13,440
 Request a quote at micrographicsdata.com.

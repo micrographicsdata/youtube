@@ -1,0 +1,51 @@
+1
+00:00:00,600 --> 00:00:02,920
+16 mm or 35 mm microfilm?
+
+2
+00:00:03,270 --> 00:00:11,820
+16 mm suits letter and A4 business records, while 35 mm suits drawings, maps and newspapers.
+
+3
+00:00:12,320 --> 00:00:23,980
+Both widths are defined in ANSI/AIIM MS14, and NARA's rule, 36 CFR 1238.10, requires its formats for roll film.
+
+4
+00:00:24,480 --> 00:00:28,800
+Width sets how much detail a frame can hold.
+
+5
+00:00:29,150 --> 00:00:37,880
+MS14 lists a maximum image area of 14.90 mm across for 16 mm, against 33.01 mm for 35 mm.
+
+6
+00:00:38,380 --> 00:00:46,180
+Choose 16 mm for correspondence, forms and registry files filmed in volume, and for digital files written to film.
+
+7
+00:00:46,530 --> 00:00:51,390
+NARA recommends a reduction no greater than 1 to 24 for correspondence.
+
+8
+00:00:51,890 --> 00:00:56,860
+Choose 35 mm for engineering drawings, maps and newspapers.
+
+9
+00:00:57,210 --> 00:01:03,620
+ANSI/AIIM MS111 is the recommended practice for filming newspapers on 35 mm.
+
+10
+00:01:04,120 --> 00:01:08,990
+Whichever width you choose, the film decides how long the record lasts.
+
+11
+00:01:09,340 --> 00:01:16,140
+Micrographics Data film in both widths is rated LE-500 to ISO 18901, with 850 lines per millimetre.
+
+12
+00:01:16,640 --> 00:01:21,300
+Need 16 mm or 35 mm film, chemistry or an archive writer?
+
+13
+00:01:21,650 --> 00:01:25,330
+Request a quote at micrographicsdata.com.

@@ -1,6 +1,6 @@
 # YouTube metadata: ECN-2 Process Control: How to Read Control Strips and Plots
 
-Video file: ecn2-process-control-strips-guide-narrated.mp4 (narrated motion graphics with music, 1920x1080, 1:17, OpenMontage)
+Video file: ecn2-process-control-strips-guide-narrated.mp4 (narrated motion graphics with music, 1920x1080, 1:16, OpenMontage)
 Source article: https://www.micrographicsdata.com/blogs/kodak-motion-film-ecn2-processor/ecn2-process-control-strips-guide
 
 ## Title (59 characters)
@@ -17,17 +17,16 @@ Read the full article: https://www.micrographicsdata.com/blogs/kodak-motion-film
 
 Chapters:
 0:00 Why control strips
-0:10 What a control strip is
 0:21 The patches that matter
 0:35 Aim values and limits
-0:48 Trends and good practice
-1:03 Request a quote
+0:47 Trends and good practice
+1:02 Request a quote
 
 Sources: Eastman Kodak Company, Processing KODAK Motion Picture Films, Module 1: Process Control (publication H-24.01); Eastman Kodak Company, Using KODAK Kit Chemicals in Motion Picture Film Laboratories (2025), as summarised in the article above.
 Music: "Ambient Calm" by AtlasAudio (Pixabay).
 
 About Micrographics Data
-Micrographics Data Pte Ltd, established in Singapore in 1989, makes the ECN-PRO (remjet stocks) and ECN-PRO3 (remjet-free AHU stocks) ECN-2 film processors, and provides archival microfilm, COM systems, document scanning and document management software. Request a quote; availability and delivery dates are confirmed on each quotation.
+Micrographics Data Pte Ltd, established in Singapore in 1989, makes the ECN-PRO PLUS (remjet stocks) and ECN-PRO3 (remjet-free AHU stocks) ECN-2 film processors, and provides archival microfilm, COM systems, document scanning and document management software. Request a quote; availability and delivery dates are confirmed on each quotation.
 Call +65 6472 7255 | sales@micrographicsdata.com | https://www.micrographicsdata.com
 115A Commonwealth Drive #02-16, Singapore 149596
 
@@ -35,7 +34,7 @@ Call +65 6472 7255 | sales@micrographicsdata.com | https://www.micrographicsdata
 
 ## Tags (paste as comma-separated)
 
-ECN-2 process control, ECN-2 control strips, control plot film processing, Status M densitometry, densitometer, film lab quality control, motion picture film lab, ECN-2 processor, ECN-PRO, ECN-PRO3
+ECN-2 process control, ECN-2 control strips, control plot film processing, Status M densitometry, densitometer, film lab quality control, motion picture film lab, ECN-2 processor, ECN-PRO PLUS, ECN-PRO3
 
 ## Upload settings
 
