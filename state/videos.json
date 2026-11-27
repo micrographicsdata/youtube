@@ -390,7 +390,7 @@
       "tier": 0,
       "video_url": null,
       "om_status": "rendered",
-      "publish_error": "Metricool ERROR 2026-11-17: account limit reached; narrated mp4 already in repo, re-post only"
+      "publish_error": "Metricool ERROR 2026-11-17 and 2026-11-27 (test post 443814009): account limit reached; narrated mp4 already in repo, re-post only"
     },
     {
       "status": "pending",
